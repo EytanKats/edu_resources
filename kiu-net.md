@@ -23,7 +23,7 @@ In over-complete architectures the data is projected onto a higher dimension in 
 The filters in this type of architecture learn finer low-level features due to the decreasing size
 of receptive field as we go deeper in the encoder network.
 
-![](/images/kiu-net/receptive_field.png)
+<img src="/images/kiu-net/receptive_field.png" width="700" />
 
 
 ## Technical details
@@ -36,7 +36,7 @@ This block extracts complementary features from both network branches and forwar
 Finally, the features from both branches are added and forwarded through 1x1 convolution layer
 to produce the segmentation mask.
 
-![](/images/kiu-net/architecture.png)
+<img src="/images/kiu-net/architecture.png" width="700" />
 
 
 ## Results
@@ -45,19 +45,19 @@ to produce the segmentation mask.
 The dataset was collected during the study and manually annotated by an expert ultrasonographer.
 
 Qualitative comparison:  
-![](/images/kiu-net/us_dataset_qualitative_results.png)
+<img src="/images/kiu-net/us_dataset_qualitative_results.png" width="700" />
 
 Quantitative comparison:  
-![](/images/kiu-net/us_dataset_quantitative_results.png)
+<img src="/images/kiu-net/us_dataset_quantitative_results.png" width="700" />
 
 ### GLAnd segmentation (GLAS) dataset
 GLAnd Segmentation (GLAS) dataset contains microscopic images of Hematoxylin and Eosin (H&E) stained slides
 and the corresponding ground truth annotations by expert pathologists.
 
 Qualitative comparison:  
-![](/images/kiu-net/glas_dataset_qualitative_results.png)
+<img src="/images/kiu-net/glas_dataset_qualitative_results.png" width="700" />
 
 Quantitative comparison:  
-![](/images/kiu-net/glas_dataset_quantitative_results.png)
+<img src="/images/kiu-net/glas_dataset_quantitative_results.png" width="700" />
 
 
