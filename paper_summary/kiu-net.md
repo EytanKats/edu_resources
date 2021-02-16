@@ -1,9 +1,8 @@
 
-# KiU-Net
+# Kiu-net: Towards accurate segmentation of biomedical images using over-complete representations.
 
-Jose, V. Jeya Maria, Vishwanath Sindagi, I. Hacihaliloglu and V. Patel.
-“KiU-Net: Towards Accurate Segmentation of Biomedical Images using Over-complete Representations.”
-ArXiv abs/2006.04878 (2020)
+Valanarasu, J.M.J., Sindagi, V.A., Hacihaliloglu, I. and Patel, V.M., 2020, October.
+In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 363-373). Springer, Cham.
 
 [ArXiv](https://arxiv.org/abs/2006.04878) | [GitHub](https://github.com/jeya-maria-jose/KiU-Net-pytorch)
 
