@@ -41,7 +41,8 @@ to produce the segmentation mask.
 ## Results
 
 ### 2D Ultrasound brain scans of preterm neonates
-The dataset was collected during the study and manually annotated by an expert ultrasonographer.
+The dataset was collected during the study.
+Ventricles and septum pellecudi were manually annotated by an expert ultrasonographer.
 
 Qualitative comparison:  
 <img src="/paper_image/kiu-net/us_dataset_qualitative_results.png" width="700" />
@@ -49,7 +50,7 @@ Qualitative comparison:
 Quantitative comparison:  
 <img src="/paper_image/kiu-net/us_dataset_quantitative_results.png" width="700" />
 
-### GLAnd segmentation (GLAS) dataset
+### GLAnd Segmentation (GLAS) dataset
 GLAnd Segmentation (GLAS) dataset contains microscopic images of Hematoxylin and Eosin (H&E) stained slides
 and the corresponding ground truth annotations by expert pathologists.
 
@@ -59,4 +60,11 @@ Qualitative comparison:
 Quantitative comparison:  
 <img src="/paper_image/kiu-net/glas_dataset_quantitative_results.png" width="700" />
 
+### Retinal Images vessel Tree Extraction (RITE) dataset:
+RITE dataset contains segmentation of arteries and veins on retinal fundus images.
 
+Qualitative comparison:  
+<img src="/paper_image/kiu-net/rite_dataset_qualitative_results.png" width="700" />
+
+Quantitative comparison:  
+<img src="/paper_image/kiu-net/rite_dataset_quantitative_results.png" width="700" />
