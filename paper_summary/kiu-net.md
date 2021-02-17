@@ -68,3 +68,12 @@ Qualitative comparison:
 
 Quantitative comparison:  
 <img src="/paper_image/kiu-net/rite_dataset_quantitative_results.png" width="700" />
+
+### Ablation study
+
+<img src="/paper_image/kiu-net/ablation_study.png" width="400" />
+
+UC - Under-Complete architecture  
+OC - Over-Complete architecture  
+SK - SKip connections
+
