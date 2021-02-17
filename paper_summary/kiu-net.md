@@ -40,6 +40,10 @@ to produce the segmentation mask.
 
 ## Results
 
+### Filter responses
+
+<img src="/paper_image/kiu-net/filter_responses.png" width="700" />
+
 ### 2D Ultrasound brain scans of preterm neonates
 The dataset was collected during the study.
 Ventricles and septum pellecudi were manually annotated by an expert ultrasonographer.
