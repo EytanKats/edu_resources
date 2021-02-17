@@ -71,7 +71,7 @@ Quantitative comparison:
 
 ### Ablation study
 
-<img src="/paper_image/kiu-net/ablation_study.png" width="400" />
+<img src="/paper_image/kiu-net/ablation_study.png" width="350" />
 
 UC - Under-Complete architecture  
 OC - Over-Complete architecture  
