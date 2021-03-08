@@ -6,7 +6,7 @@ In International Conference on Medical Image Computing and Computer-Assisted Int
 [Paper](https://arxiv.org/abs/2006.04878) | [Code](https://github.com/jeya-maria-jose/KiU-Net-pytorch) | [Summary](/paper_summary/kiu-net.md)
 
 **Main contribution**  
-Architecture combining the features of both under-complete and over-complete deep networks.
+Architecture combining the features of both under-complete and over-complete deep networks.  
 This architecture captures finer details better than the standard encoder-decoder architecture of U-Net
 thus aiding in precise segmentation.
 
