@@ -6,5 +6,6 @@ In International Conference on Medical Image Computing and Computer-Assisted Int
 [Paper](https://arxiv.org/abs/2007.16133)
 
 **Main contribution**  
-3D Region Proposal Network (RPN) to simultaneously detect and classify breast lesions in Automated Breast Ultrasound (ABUS) images.
-
+- 3D Region Proposal Network (RPN) to simultaneously detect and classify breast lesions in Automated Breast Ultrasound (ABUS) images.
+- Intersection-over-Union (IoU) balanced classification loss to enlarge contribution of detections with good regression to learning process comparing to those with bad regression.
+- Similarity loss between feature vectors corresponding to detections to increase intra-category correlation and inter-category discrimination.
