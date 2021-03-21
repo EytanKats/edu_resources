@@ -1,4 +1,4 @@
-### <ins>Kiu-net: Towards accurate segmentation of biomedical images using over-complete representations</ins>
+### Kiu-net: Towards accurate segmentation of biomedical images using over-complete representations
 
 Valanarasu, J.M.J., Sindagi, V.A., Hacihaliloglu, I. and Patel, V.M., 2020, October.  
 In International Conference on Medical Image Computing and Computer-Assisted Intervention (pp. 363-373). Springer, Cham.
@@ -11,7 +11,7 @@ This architecture captures finer details better than the standard encoder-decode
 thus aiding in precise segmentation.
 
 
-### <ins>TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation</ins>
+### TransUNet: Transformers Make Strong Encoders for Medical Image Segmentation
 
 Chen, J., Lu, Y., Yu, Q., Luo, X., Adeli, E., Wang, Y., Lu, L., Yuille, A.L. and Zhou, Y., 2021.  
 arXiv preprint arXiv:2102.04306.
