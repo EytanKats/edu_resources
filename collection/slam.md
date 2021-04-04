@@ -6,8 +6,8 @@ University of Freiburg, Prof. Wolfram Burgard
 [Site](http://ais.informatik.uni-freiburg.de/teaching/ss20/robotics/index_en.php)
 
 **Description**  
-Course introduces basic concepts and techniques used within the field of mobile robotics.  
-Fundamental challenges for autonomous intelligent systems and state of the art solutions are discussed.
+Course introduces basic concepts and techniques used within the field of mobile robotics   
+and discusses fundamental challenges for autonomous intelligent systems and state of the art solutions.
 Among the course topics:
 - kinematics
 - sensors
