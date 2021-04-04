@@ -1,5 +1,3 @@
-## Plots
-
 ### Open-source algorithm library
 
 [Site](https://the-algorithms.com/) | [Github](https://github.com/TheAlgorithms)
