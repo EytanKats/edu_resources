@@ -21,7 +21,7 @@ Among the course topics:
 
 ### Awesome visual SLAM
 
-[Github page](https://github.com/tzutalin/awesome-visual-slam)
+[Github](https://github.com/tzutalin/awesome-visual-slam)
 
 **Description**  
 List of vision-based SLAM open source projects, libraries, dataset, tools, and studies.
