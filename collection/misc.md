@@ -2,7 +2,7 @@
 
 ### Top 50 data visualizations
 
-[Blogpost](https://arxiv.org/abs/2007.16133)
+[Blogpost](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)
 
 **Description**  
 A compilation of the 50 most useful plots in data analysis.  
