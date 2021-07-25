@@ -1,4 +1,4 @@
-## ML/DL contests
+## Contests
 
 ### ML contests
 
