@@ -16,4 +16,4 @@ Topics include core deep learning algorithms and recent advances in deep learnin
 [Site](https://vissl.ai/) | [Github](https://github.com/facebookresearch/vissl)
 
 **Description**  
-Computer vision library for state-of-the-art self-supervised learning research with PyTorch.
+Computer vision library for state-of-the-art self-supervised learning with PyTorch.
