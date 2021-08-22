@@ -1,3 +1,12 @@
+## Other collections of resources
+
+### Awesome visual SLAM
+
+[Github](https://github.com/tzutalin/awesome-visual-slam)
+
+**Description**  
+List of vision-based SLAM open source projects, libraries, dataset, tools, and studies.
+
 ## Courses
 
 ### Introduction to Mobile Robotics (2020)
@@ -15,13 +24,3 @@ Among the course topics:
 - map building
 - SLAM
 - path planning
-
-
-## Other collections of resources
-
-### Awesome visual SLAM
-
-[Github](https://github.com/tzutalin/awesome-visual-slam)
-
-**Description**  
-List of vision-based SLAM open source projects, libraries, dataset, tools, and studies.
