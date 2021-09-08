@@ -12,10 +12,10 @@ The course presents the fundamental mathematical concepts in machine learning an
 - multimodal fusion
 - co-learning
 
-### Deep Learning for Computer Vision: Fundamentals and Applications | [YouTube](https://www.youtube.com/playlist?list=PL_Z2_U9MIJdNgFM7-f2fZ9ZxjVRP_jhJv)
+### Deep Learning for Computer Vision: Fundamentals and Applications
 Weizmann Institute of Science, Prof. Tali Dekel
 
-[Site](https://dl4cv.github.io/index.html)
+[Site](https://dl4cv.github.io/index.html) | [YouTube](https://www.youtube.com/playlist?list=PL_Z2_U9MIJdNgFM7-f2fZ9ZxjVRP_jhJv)
 
 **Description**  
 The course covers fundamentals of deep learning based methodologies in area of computer vision.  
