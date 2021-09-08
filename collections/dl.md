@@ -6,7 +6,8 @@ Carnegie Mellon University, Louis-Philippe Morency
 [Site](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) | [YouTube](https://www.youtube.com/playlist?list=PL-Fhd_vrvisNup9YQs_TdLW7DQz-lda0G)
 
 **Description**  
-The course presents the fundamental mathematical concepts in machine learning and deep learning relevant to the five main challenges in multimodal machine learning: - multimodal representation learning
+The course presents the fundamental mathematical concepts in machine learning and deep learning relevant to the five main challenges in multimodal machine learning:
+- multimodal representation learning
 - translation & mapping
 - modality alignment
 - multimodal fusion
