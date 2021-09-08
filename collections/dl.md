@@ -1,5 +1,17 @@
 ## Courses
 
+### MultiModal Machine Learning
+Carnegie Mellon University, Louis-Philippe Morency
+
+[Site](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/)
+
+**Description**  
+The course presents the fundamental mathematical concepts in machine learning and deep learning relevant to the five main challenges in multimodal machine learning: - multimodal representation learning
+- translation & mapping
+- modality alignment
+- multimodal fusion
+- co-learning
+
 ### Deep Learning for Computer Vision: Fundamentals and Applications
 Weizmann Institute of Science, Prof. Tali Dekel
 
