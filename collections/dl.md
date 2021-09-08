@@ -3,7 +3,7 @@
 ### MultiModal Machine Learning
 Carnegie Mellon University, Louis-Philippe Morency
 
-[Site](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/)
+[Site](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/) | [YouTube](https://www.youtube.com/playlist?list=PL-Fhd_vrvisNup9YQs_TdLW7DQz-lda0G)
 
 **Description**  
 The course presents the fundamental mathematical concepts in machine learning and deep learning relevant to the five main challenges in multimodal machine learning: - multimodal representation learning
@@ -12,7 +12,7 @@ The course presents the fundamental mathematical concepts in machine learning an
 - multimodal fusion
 - co-learning
 
-### Deep Learning for Computer Vision: Fundamentals and Applications
+### Deep Learning for Computer Vision: Fundamentals and Applications | [YouTube](https://www.youtube.com/playlist?list=PL_Z2_U9MIJdNgFM7-f2fZ9ZxjVRP_jhJv)
 Weizmann Institute of Science, Prof. Tali Dekel
 
 [Site](https://dl4cv.github.io/index.html)
