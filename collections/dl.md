@@ -24,6 +24,15 @@ Topics include core deep learning algorithms and recent advances in deep learnin
 
 ## Tools
 
+### MONAI
+
+[Site](https://monai.io/) | [Github](https://github.com/facebookresearch/vissl)
+
+**Description**  
+The MONAI is the open-source PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm.  
+
+Project MONAI also includes MONAI Label, an open source image labeling and learning tool that helps researchers and clinicians collaborate, create annotated datasets, and build AI models.
+
 ### VISSL
 
 [Site](https://vissl.ai/) | [Github](https://github.com/facebookresearch/vissl)
