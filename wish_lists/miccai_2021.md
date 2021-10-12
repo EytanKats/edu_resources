@@ -60,5 +60,34 @@ Proposed approach can be **seamlessly integrated into segmentation pipelines** w
 
 ___
 
+### CoTr: Efficiently Bridging CNN and Transformer for 3D Medical Image Segmentation
+Xie et al.
+
+This paper proposes **hybrid architecture consisting of convolutional and transformer parts** for 3D segmentation task.
+In order to enable use of multi-scale feature maps as input to transformer **deformable self-attention mechanism** was utilized that 
+significantly reduced computational and spatial complexity.
+
+___
+
+### Orthogonal Ensemble Networks for Biomedical Image Segmentation
+Larrazabal et al.
+
+This paper propose method to enforce **diversity of models in ensamble** by using filter-wise **inter-model orthogonal constraints** during training.
+Models in ensamble trained sequentially.
+
+___
+
+### Federated Contrastive Learning for Volumetric Medical Image Segmentation
+Wu et al.
+
+This paper proposes **self-supervised** pretraining method within the framework of **federated learning**.
+**Momentum** encoder of each client produces feature vectors which further shared with other clients.
+**Contrastive loss** is computed by each client based on both local and remote features.
+Features are considered to be positive if originated from the same anatomical region.
+
+___
+
+
+
 
 
