@@ -50,7 +50,7 @@ Finally measurements are taken while **metric scale (px/mm) is extracted automat
 
 ___
 
-### Detecting when pre-trained nnU-Net models fail silently for Covid-19 lung lesion segmentation
+### Detecting When Pre-trained nnU-Net Models Fail Silently for Covid-19 Lung Lesion Segmentation
 Gonzalez et al.
 
 This paper proposes method to estimate **uncertainty of segmentation** and detect **Out-of-Distribution samples**.
@@ -87,7 +87,26 @@ Features are considered to be positive if originated from the same anatomical re
 
 ___
 
+### Controllable Cardiac Synthesis via Disentangled Anatomy Arithmetic
+Thermos et al.
 
+This paper proposes **framework to generate cardiac images with desired characteristics** (for example with specific pathology).
+Image is generated from **disentagled representations of anatomy structures** (left ventricle, right ventricle and myocardium)
+and **disentangled representation of imaging modality** (MRI).
+Disentanglment is based on the previous work and this work is focuses only on image generation.
+Proposed approach can be used to enrich existing dataset by generating images with rare medical conditions.
 
+___
+
+### Collaborative Image Synthesis and Disease Diagnosis for Classification of Neurodegenerative Disorders with Incomplete Multi-modal Neuroimages
+
+This paper proposes **framework for multi-modal (PET and MRI) diagnosis**.
+This framework is **able to generate missing modality (if missing) from the existing one**.
+Sysnthesis and diagnosis modules are **trained collaborately**.
+This poses feature-consistent constraint to the synthesis process while diagnosis module trained on both real and synthesized images.
+
+___
+
+### 
 
 
