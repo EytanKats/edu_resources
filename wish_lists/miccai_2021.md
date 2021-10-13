@@ -99,6 +99,7 @@ Proposed approach can be used to enrich existing dataset by generating images wi
 ___
 
 ### Collaborative Image Synthesis and Disease Diagnosis for Classification of Neurodegenerative Disorders with Incomplete Multi-modal Neuroimages
+Pan et al.
 
 This paper proposes **framework for multi-modal (PET and MRI) diagnosis**.
 This framework is **able to generate missing modality (if missing) from the existing one**.
