@@ -1,4 +1,4 @@
-### Open-source algorithm library
+### Open-source Algorithm Library
 
 [Site](https://the-algorithms.com/) | [Github](https://github.com/TheAlgorithms)
 
