@@ -108,6 +108,24 @@ This poses feature-consistent constraint to the synthesis process while diagnosi
 
 ___
 
-### 
+### Semi-supervised Meta-learning with Disentanglement for Domain-generalised Medical Image Segmentation
+Liu et al.
+
+This paper proposes **semi-supervised domain generalization** framework.
+Domain generalization is achieved by two techniques: **(1) meta-learning and (2) disentanglment**.
+For each iteration of training domain shift is simulating by randomly splitting the source domains to meta-train set and meta-test set.
+Image features are disentangled to 3 components: (1) anatomy information, (2) common cross-domain imaging characteristics and (3) specific imaging characteristics for each domain.
+
+___
+
+### Cooperative Training and Latent Space Data Augmentation for Robust Medical Image Segmentation
+Chen et al.
+
+This paper proposes a **cooperative training framework** for learning a **robust segmentation network from single-domain data**.
+First model in framework learns image features for image reconstruction and shape features for initial segmentation while second refines initial segmentation.
+Latent space augmentation generates challenging examples by masking the most task-important latent space features. 
+
+
+
 
 
