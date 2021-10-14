@@ -91,9 +91,9 @@ ___
 Thermos et al.
 
 This paper proposes **framework to generate cardiac images with desired characteristics** (for example with specific pathology).
-Image is generated from **disentagled representations of anatomy structures** (left ventricle, right ventricle and myocardium)
+Image is generated from **disentangled representations of anatomy structures** (left ventricle, right ventricle and myocardium)
 and **disentangled representation of imaging modality** (MRI).
-Disentanglment is based on the previous work and this work is focuses only on image generation.
+Disentanglement is based on the previous work and this work is focuses only on image generation.
 Proposed approach can be used to enrich existing dataset by generating images with rare medical conditions.
 
 ___
@@ -112,7 +112,7 @@ ___
 Liu et al.
 
 This paper proposes **semi-supervised domain generalization** framework.
-Domain generalization is achieved by two techniques: **(1) meta-learning and (2) disentanglment**.
+Domain generalization is achieved by two techniques: **(1) meta-learning and (2) disentanglement**.
 For each iteration of training domain shift is simulating by randomly splitting the source domains to meta-train set and meta-test set.
 Image features are disentangled to 3 components: (1) anatomy information, (2) common cross-domain imaging characteristics and (3) specific imaging characteristics for each domain.
 
