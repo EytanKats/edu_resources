@@ -2,7 +2,7 @@
 
 ___
 
-### Self-supervised Visual Representation Learning for Histopathological Images
+### [Self-supervised Visual Representation Learning for Histopathological Images](https://arxiv.org/abs/2109.03299)
 Yang et al.
 
 This paper proposes **self-supervised** pretraining method for histopathological images.
@@ -11,7 +11,7 @@ while pretrained generative model used as a regularizer to prevent encoder colla
 
 ___
 
-### TransPath: Transformer-Based Self-supervised Learning for Histopathological Image Classification
+### [TransPath: Transformer-Based Self-supervised Learning for Histopathological Image Classification](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_18)
 Wang et al.
 
 This paper proposes **self-supervised** pretraining method for histopathological images.
@@ -21,7 +21,7 @@ while two parallel paths shares a similar structure but different network weight
 
 ___
 
-### Self-Supervised Longitudinal Neighbourhood Embedding
+### [Self-Supervised Longitudinal Neighbourhood Embedding](https://arxiv.org/abs/2103.03840)
 Ouyang et al.
 
 This paper proposes **self-supervised** pretraining method for longitudinal brain MRIs.
@@ -30,7 +30,7 @@ As a result, **the latent space encodes the global morphological change** linked
 
 ___
 
-### Learning from Subjective Ratings Using Auto-Decoded Deep Latent Embeddings
+### [Learning from Subjective Ratings Using Auto-Decoded Deep Latent Embeddings](https://arxiv.org/abs/2104.05570)
 Li et al.
 
 This paper proposes training strategy to overcome the probelem of **inter-rater variablitity**.
@@ -40,7 +40,7 @@ During inference mean of all or *most sucessfull* (accoding to validation) rater
 
 ___
 
-### AutoFB: Automating Fetal Biometry Estimation from Standard Ultrasound Planes
+### [AutoFB: Automating Fetal Biometry Estimation from Standard Ultrasound Planes](https://arxiv.org/abs/2107.05255)
 Bano et al.
 
 This paper proposes framework to perform **all the relevant measurements for fetal weight estimation within a unified automated system**.
@@ -50,7 +50,7 @@ Finally measurements are taken while **metric scale (px/mm) is extracted automat
 
 ___
 
-### Detecting When Pre-trained nnU-Net Models Fail Silently for Covid-19 Lung Lesion Segmentation
+### [Detecting When Pre-trained nnU-Net Models Fail Silently for Covid-19 Lung Lesion Segmentation](https://arxiv.org/abs/2107.05975)
 Gonzalez et al.
 
 This paper proposes method to estimate **uncertainty of segmentation** and detect **Out-of-Distribution samples**.
@@ -60,7 +60,7 @@ Proposed approach can be **seamlessly integrated into segmentation pipelines** w
 
 ___
 
-### CoTr: Efficiently Bridging CNN and Transformer for 3D Medical Image Segmentation
+### [CoTr: Efficiently Bridging CNN and Transformer for 3D Medical Image Segmentation](https://arxiv.org/abs/2103.03024)
 Xie et al.
 
 This paper proposes **hybrid architecture consisting of convolutional and transformer parts** for 3D segmentation task.
@@ -69,7 +69,7 @@ significantly reduced computational and spatial complexity.
 
 ___
 
-### Orthogonal Ensemble Networks for Biomedical Image Segmentation
+### [Orthogonal Ensemble Networks for Biomedical Image Segmentation](https://arxiv.org/abs/2105.10827)
 Larrazabal et al.
 
 This paper propose method to enforce **diversity of models in ensamble** by using filter-wise **inter-model orthogonal constraints** during training.
@@ -77,7 +77,7 @@ Models in ensamble trained sequentially.
 
 ___
 
-### Federated Contrastive Learning for Volumetric Medical Image Segmentation
+### [Federated Contrastive Learning for Volumetric Medical Image Segmentation](https://link.springer.com/chapter/10.1007/978-3-030-87199-4_35)
 Wu et al.
 
 This paper proposes **self-supervised** pretraining method within the framework of **federated learning**.
@@ -87,7 +87,7 @@ Features are considered to be positive if originated from the same anatomical re
 
 ___
 
-### Controllable Cardiac Synthesis via Disentangled Anatomy Arithmetic
+### [Controllable Cardiac Synthesis via Disentangled Anatomy Arithmetic](https://arxiv.org/abs/2107.01748)
 Thermos et al.
 
 This paper proposes **framework to generate cardiac images with desired characteristics** (for example with specific pathology).
@@ -98,7 +98,7 @@ Proposed approach can be used to enrich existing dataset by generating images wi
 
 ___
 
-### Collaborative Image Synthesis and Disease Diagnosis for Classification of Neurodegenerative Disorders with Incomplete Multi-modal Neuroimages
+### [Collaborative Image Synthesis and Disease Diagnosis for Classification of Neurodegenerative Disorders with Incomplete Multi-modal Neuroimages](https://link.springer.com/chapter/10.1007/978-3-030-87240-3_46)
 Pan et al.
 
 This paper proposes **framework for multi-modal (PET and MRI) diagnosis**.
@@ -108,7 +108,7 @@ This poses feature-consistent constraint to the synthesis process while diagnosi
 
 ___
 
-### Semi-supervised Meta-learning with Disentanglement for Domain-generalised Medical Image Segmentation
+### [Semi-supervised Meta-learning with Disentanglement for Domain-generalised Medical Image Segmentation](https://arxiv.org/abs/2106.13292)
 Liu et al.
 
 This paper proposes **semi-supervised domain generalization** framework.
@@ -118,7 +118,7 @@ Image features are disentangled to 3 components: (1) anatomy information, (2) co
 
 ___
 
-### Cooperative Training and Latent Space Data Augmentation for Robust Medical Image Segmentation
+### [Cooperative Training and Latent Space Data Augmentation for Robust Medical Image Segmentation](https://arxiv.org/abs/2107.01079)
 Chen et al.
 
 This paper proposes a **cooperative training framework** for learning a **robust segmentation network from single-domain data**.
