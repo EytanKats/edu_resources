@@ -1,5 +1,7 @@
 ## Books
 
+___
+
 ### Introduction to Machine Learning Interviews Book
 Chip Huyen
 
@@ -14,3 +16,15 @@ what types of machine learning roles are available, what skills each role requir
 This part also explains the interviewers’ mindset and what kind of signals they look for.
 
 The second part consists of over 200 knowledge questions that cover important concepts and common misconceptions in machine learning.
+
+___
+
+### Deep Learning Interviews
+Shlomo Kashani
+
+[GitHub](https://github.com/BoltzmannEntropy/interviews.ai)
+
+**Description**  
+
+The book is home to hundreds of fully-solved problems, from a wide range of key topics in AI.
+It is designed to both rehearse interview and provide a well-organized overview of the field.
