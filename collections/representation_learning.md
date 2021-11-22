@@ -7,11 +7,15 @@
 
 ### Self-supervised learning  
 
-:small_blue_diamond: Momentum Contrast for Unsupervised Visual Representation Learning
+:small_blue_diamond: __Momentum Contrast for Unsupervised Visual Representation Learning__
 [[ArXiv](https://arxiv.org/abs/1911.05722)]
 [[GitHub](https://github.com/facebookresearch/moco)]  
 
-Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie and Ross B. Girshick.   
-CVPR 2020  
+_Kaiming He, Haoqi Fan, Yuxin Wu, Saining Xie and Ross B. Girshick_   
+_CVPR 2020_  
+
+Momentum Contrast (MoCo) trains visual representation encoder by matching encoded query to encoded keys using contrastive loss.
+Encoded keys are sampled from dictionary. Dictionary is built as a queue, with current mini-batch enqueued and oldest mini-batch dequeued.
+Keys are encoded by slowly progressing encoder, driven by momentum update with query encoder.
 
 ### Semi-supervised learning
