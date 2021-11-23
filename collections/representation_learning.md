@@ -27,8 +27,12 @@ _CVPR 2020_
 _Ting Chen, Simon Kornblith, Mohammad Norouzi and Geoffrey Hinton_  
 _ICML 2020_
 
-- Two separate data augmentation operators are applied to data example to obtain two correlated views.
-- 
+- An encoder network is trained using a contrastive loss.
+- The contrastive loss calculated based on samples in current minibatch only, without sampling negative examples explicitly:
+  - A data augmentation module transforms any given data example randomly resulting in two correlated views of the same example.
+  - A neural network base encoder extracts representation vectors from augmented data examples.
+  - A small neural network projection head maps representations to the space where contrastive loss is applied.
+  - Two correlated views of the same example considered as a positive pair while other augmented examples within a minibatch treated as negative examples.
 
 ## Semi-supervised learning
 
