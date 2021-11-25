@@ -1,5 +1,6 @@
  
 #### Self-supervised learning
+- [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)
 - [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)
 - [A Simple Framework for Contrastive Learning of Visual Representations](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)
 - [Momentum Contrast for Unsupervised Visual Representation Learning](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning)
@@ -8,6 +9,20 @@
 - [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](#small_blue_diamond-fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence)
 
 ## Self-supervised learning  
+
+### :small_blue_diamond: Bootstrap Your Own latent: A New Approach to Self-Supervised Learning
+[[ArXiv](https://arxiv.org/abs/2006.07733)]
+[[GitHub](https://github.com/deepmind/deepmind-research/tree/master/byol)]
+
+_Grill, Jean-Bastien, Florian Strub, Florent Altch'e, Corentin Tallec, Pierre H. Richemond, Elena Buchatskaya,
+Carl Doersch, Bernardo Avila Pires, Zhaohan Daniel Guo, Mohammad Gheshlaghi Azar, Bilal Piot, Koray Kavukcuoglu, Rémi Munos and Michal Valko_  
+_NeurIPS 2020_
+
+- BYOL uses two neural networks to learn: the online and target networks.
+- The online network is comprised of three stages: an encoder, a projector and a predictor.
+- The target network is comprised of two stages: an encoder and a projector.
+- The parameters of target network are an exponential moving average of the online parameters.
+- Mean squared loss is applied between the normalized online predictions and normalized target projections.
 
 ### :small_blue_diamond: Improved Baselines with Momentum Contrastive Learning
 [[ArXiv](https://arxiv.org/abs/2003.04297)]
