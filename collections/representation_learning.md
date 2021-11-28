@@ -14,6 +14,8 @@ _Nov 2019, CVPR, >2000 citations_
 _Mar 2020, CVPR, >80 citations_
 - [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](#small_blue_diamond-fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence)  
 _Jan 2020, NeurIPS, >500 citations_
+- [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
+_May 2019, ICCV, >200 citations_
 
 ## Self-supervised learning  
 
@@ -40,7 +42,7 @@ _Xinlei Chen, Haoqi Fan, Ross B. Girshick and Kaiming He_
 _Mar 2020, ArXiv, >600 citations_
 
 - Two design improvements used in [SimCLR](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)
-improve [MoCo](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning) framework:
+applied to [MoCo](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning) framework:
   - MLP projection head.
   - Stronger data augmentation.
 
@@ -96,3 +98,12 @@ _Jan 2020, NeurIPS, >500 citations_
 - The supervised loss is the standard cross-entropy loss applied on weakly augmented labeled examples.
 - The unsupervised cross-entropy loss encourages a prediction on a strongly augmented version of the unlabeled example match its' pseudo-label.
 - The pseudo-label computed from the model prediction on a weakly augmented version of the unlabeled example: when the model assigns a probability to any class which is above a threshold, the prediction is converted to an one-hot pseudo-label.
+
+### :small_blue_diamond: S4L: Self-Supervised Semi-Supervised Learning
+[[ArXiv](https://arxiv.org/abs/1905.03670)]
+[[GitHub](https://github.com/google-research/s4l)]
+
+_Xiaohua Zhai, Avital Oliver, Alexander Kolesnikov and Lucas Beyer_  
+_May 2019, ICCV, >200 citations_
+
+- 
