@@ -56,4 +56,4 @@ Collection of various algorithms in mathematics, machine learning, computer scie
 
 [[Page](https://howtolearnmachinelearning.com/)]
 
-Repository of resources to learn Machine Learning.
+Repository of resources to learn machine learning.
