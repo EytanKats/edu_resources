@@ -41,8 +41,8 @@ that corresponds to two different augmentations of the same image.
 _Xinlei Chen, Haoqi Fan, Ross B. Girshick and Kaiming He_  
 _Mar 2020, ArXiv, >600 citations_
 
-- Two design improvements used in [SimCLR](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)
-applied to [MoCo](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning) framework:
+- Two design improvements used in [SimCLR](https://arxiv.org/abs/2002.05709)
+applied to [MoCo](https://arxiv.org/abs/1911.05722) framework:
   - MLP projection head.
   - Stronger data augmentation.
 
@@ -106,4 +106,8 @@ _Jan 2020, NeurIPS, >500 citations_
 _Xiaohua Zhai, Avital Oliver, Alexander Kolesnikov and Lucas Beyer_  
 _May 2019, ICCV, >200 citations_
 
-- 
+- The learning objective of the S4L method consists of two terms: supervised and unsupervised.
+- The supervised loss is the standard cross-entropy loss applied on labeled examples.
+- The unsupervised loss is the task specific loss applied on unlabeled examples:
+  - Crossentropy loss for [rotation prediction](https://arxiv.org/abs/1803.07728) task.
+  - [Batch hard triplet loss with soft margin](https://arxiv.org/abs/1703.07737) for [exemplar](https://arxiv.org/abs/1406.6909) task.
