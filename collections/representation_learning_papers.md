@@ -36,7 +36,14 @@ _May 2019, ICCV_
 _Soroush Abbasi Koohpayegani, Ajinkya Tejankar and Hamed Pirsiavash_  
 _May 2021, ICCV_
 
-- 
+- Similar to [BYOL](https://arxiv.org/abs/2006.07733), MSF method maintains two encoders (target and online).
+- The online encoder is updated with gradient descent while the target encoder is the moving average of the online encoder.
+- Two different augmentations of an image are fed to these two encoders.
+- The target embedding is added to the memory bank.
+- The online embedding of the image is pushed to be close to the average of nearest neighbors of the target embedding from the memory bank (obviously target embedding itself will be the first nearest neighbor).
+- Nearest neighbors act as a proxy for strong augmentations of the query image, so the requirement for engineering strong augmentations can be relaxed.
+- MSF method using only one nearest neighbor is identical to [BYOL](https://arxiv.org/abs/2006.07733).
+
 
 ### :small_blue_diamond: Bootstrap Your Own latent: A New Approach to Self-Supervised Learning
 [[ArXiv](https://arxiv.org/abs/2006.07733)]
@@ -88,7 +95,7 @@ _Nov 2019, CVPR_
 
 - Momentum Contrast (MoCo) trains a visual representation encoder by matching an encoded query to a dictionary of encoded keys using contrastive loss.  
 - A query and a key are considered as a positive pair if they originated from the same image under random data augmentation.  
-- The encoded keys are sampled from the dictionary. The Dictionary is built as a queue, with the current mini-batch enqueued and the oldest mini-batch dequeued.  
+- The encoded keys are sampled from the dictionary. The dictionary is built as a queue, with the current mini-batch enqueued and the oldest mini-batch dequeued.  
 - The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder.
 
 ## Semi-supervised learning
