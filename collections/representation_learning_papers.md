@@ -17,6 +17,9 @@ _Feb 2020, ICML_
 _Nov 2019, CVPR_ 
 
 #### Semi-supervised learning
+- [Constrained Mean Shift Using Distant Yet Related Neighbors for Representation Learning](#small_blue_diamond-constrained-mean-shift-using-distant-yet-related-neighbors-for-representation-learning)  
+:star:  
+_Dec 2021, ArXiv_
 - [Meta Pseudo Labels](#small_blue_diamond-meta-pseudo-labels)  
 :star: :star:  
 _Mar 2020, CVPR_
@@ -99,6 +102,22 @@ _Nov 2019, CVPR_
 - The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder.
 
 ## Semi-supervised learning
+
+### :small_blue_diamond: Constrained Mean Shift Using Distant Yet Related Neighbors for Representation Learning
+[[ArXiv](https://arxiv.org/abs/2112.04607)]
+[[GitHub](https://github.com/UCDvision/CMSF)]
+
+_Ajinkya Tejankar, Soroush Abbasi Koohpayegani, K L Navaneet, Kossar Pourahmadi, Akshayvarun Subramanya and Hamed Pirsiavash_  
+_Dec 2021, ArXiv_
+
+- Similar to [MSF](https://arxiv.org/abs/2105.07269) online embedding is pulled closer to the mean of the nearest neighbors of target embedding from the memory bank.
+- In contrast to [MSF](https://arxiv.org/abs/2105.07269) the nearest neighbors search space is constrained to the images from the same semantic category as the query image.
+- Different constraints are used in supervised, self-supervised and semi-supervised settings:
+  - In supervised setting the nearest neighbors are chosen from the samples that share the same label as the query image.
+  - In semi-supervised setting classifier is trained using the current embeddings of the labeled data and then utilized to pseudo-label the unlabeled data. Then the nearest neighbors are chosen from the samples that share the same pseudo-label as the query image.
+  - For self-supervised settings two constraints are proposed:  
+    - Clustering is performed at the end of each epoch using the cached embeddings of that epoch. Then in the next epoch the nearest neighbors are chosen from the samples that share the same cluster as the query image.
+    - A secondary memory bank is maintained and containing target embeddings of a different (3rd) augmentation of the images. Then, for the query image, indices of the nearest neighbors of the target embedding for 3rd augmentation are found in secondary memory bank. These indices is used to constrain the nearest neighbors search space for original target embedding in main memory bank. 
 
 ### :small_blue_diamond: Meta Pseudo Labels
 [[ArXiv](https://arxiv.org/abs/2003.10580)]
