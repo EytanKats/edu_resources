@@ -117,7 +117,7 @@ _Dec 2021, ArXiv_
   - In semi-supervised setting classifier is trained using the current embeddings of the labeled data and then utilized to pseudo-label the unlabeled data. Then the nearest neighbors are chosen from the samples that share the same pseudo-label as the query image.
   - For self-supervised settings two constraints are proposed:  
     - Clustering is performed at the end of each epoch using the cached embeddings of that epoch. Then in the next epoch the nearest neighbors are chosen from the samples that share the same cluster as the query image.
-    - A secondary memory bank is maintained and containing target embeddings of a different (3rd) augmentation of the images. Then, for the query image, indices of the nearest neighbors of the target embedding for 3rd augmentation are found in secondary memory bank. These indices is used to constrain the nearest neighbors search space for original target embedding in main memory bank. 
+    - A secondary memory bank is maintained and containing secondary target embeddings (embeddings of a different (3rd) augmentation of the images). Then, for the query image, the nearest neighbors of the secondary target embedding are found in secondary memory bank. Indices of these nearest neighbors are used to constrain the nearest neighbors search space for main target embedding in main memory bank. 
 
 ### :small_blue_diamond: Meta Pseudo Labels
 [[ArXiv](https://arxiv.org/abs/2003.10580)]
