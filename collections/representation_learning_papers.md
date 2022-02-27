@@ -34,7 +34,10 @@ _Mar 2020, CVPR_
 _Jan 2020, NeurIPS_
 - [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
 :star: :star: :star:  
-_May 2019, ICCV_
+_May 2019, ICCV_  
+- [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
+:star: :star: :star: :star:  
+_Oct 2016, ICLR_
 
 ## Self-supervised learning  
 
@@ -162,3 +165,17 @@ _May 2019, ICCV_
 - The unsupervised loss is the task specific loss applied on unlabeled examples:
   - Crossentropy loss for [rotation prediction](https://arxiv.org/abs/1803.07728) task.
   - [Batch hard triplet loss with soft margin](https://arxiv.org/abs/1703.07737) for [exemplar](https://arxiv.org/abs/1406.6909) task.
+
+### :small_blue_diamond: Temporal Ensembling for Semi-Supervised Learning
+[[ArXiv](https://arxiv.org/abs/1610.02242)]
+[[GitHub](https://github.com/smlaine2/tempens)]
+
+_Samuli Laine and Timo Aila_  
+_Oct 2016, ICLR_
+
+- Loss function of П-model consists of two components:
+  - The first component is the standard cross-entropy loss, evaluated for labeled inputs only.
+  - The second component, evaluated for all inputs, encourages consistent network output between two realizations of the same input stimulus, under two different augmentations and under two different dropout conditions.
+- In temporal ensembling approach the network outputs from different epochs for the same data sample accumulated into weighted average with recent epochs having larger weight than distant epochs:
+  - The first component of the temporal ensembling loss function is the standard cross-entropy loss, evaluated for labeled inputs only.
+  - The second component, evaluated for all inputs, encourages consistency between the current network output and weighted average of the network outputs from previous epochs.
