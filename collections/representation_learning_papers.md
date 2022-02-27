@@ -1,8 +1,8 @@
-:star: - less than 20 citations at the moment of listing
-:star: :star: - between 20 and 100 citations at the moment of listing
-:star: :star: :star: - between 100 and 500 citations at the moment of listing
-:start: :star: :star: :star: - between 500 and 1000 citations at the moment of listing
-:start: :star: :star: :star: :star: - more than 1000 citations at the moment of listing
+:star: - less than 20 citations at the moment of listing  
+:star: :star: - between 20 and 100 citations at the moment of listing  
+:star: :star: :star: - between 100 and 500 citations at the moment of listing  
+:star: :star: :star: :star: - between 500 and 1000 citations at the moment of listing  
+:star: :star: :star: :star: :star: - more than 1000 citations at the moment of listing  
 
 
 #### Self-supervised learning
@@ -10,7 +10,7 @@
 :star:  
 _May 2021, ICCV_
 - [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)   
-:star: :star: :star: :star:  
+:star: :star: :star: :star: :star:  
 _Jun 2020, NeurIPS_
 - [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)  
 :star: :star: :star: :star:  
@@ -27,7 +27,7 @@ _Nov 2019, CVPR_
 :star:  
 _Dec 2021, ArXiv_
 - [Meta Pseudo Labels](#small_blue_diamond-meta-pseudo-labels)  
-:star: :star:  
+:star: :star: :star:  
 _Mar 2020, CVPR_
 - [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](#small_blue_diamond-fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence)  
 :star: :star: :star: :star:  
