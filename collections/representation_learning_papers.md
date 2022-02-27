@@ -1,4 +1,10 @@
- 
+:star: - less than 20 citations at the moment of listing
+:star: :star: - between 20 and 100 citations at the moment of listing
+:star: :star: :star: - between 100 and 500 citations at the moment of listing
+:start: :star: :star: :star: - between 500 and 1000 citations at the moment of listing
+:start: :star: :star: :star: :star: - more than 1000 citations at the moment of listing
+
+
 #### Self-supervised learning
 - [Mean Shift for Self-Supervised Learning](#small_blue_diamond-mean-shift-for-self-supervised-learning)   
 :star:  
