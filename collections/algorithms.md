@@ -7,6 +7,9 @@
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
 
+#### [Contests](#contests)
+- [ML contests](#small_blue_diamond-ml-contests-small_blue_diamond)
+
 #### [Libraries](#libraries)
 - [Open-source Algorithm Library](#small_blue_diamond-open-source-algorithm-library-small_blue_diamond)
 - [Super Gradients](#small_blue_diamond-super-gradients-small_blue_diamond)
@@ -40,6 +43,15 @@ Lectures offered by the Autonomous Vision Group at the University of Tubingen:
 [[YouTube Channel](https://www.youtube.com/c/T%C3%BCbingenML/featured)]
 
 YouTube channel of the machine learning groups at the University of Tubingen.
+
+
+## Contests
+
+### :small_blue_diamond: ML contests :small_blue_diamond:
+
+[[Github](https://github.com/skrish13/ml-contests-conf)]
+
+List of ML and DL related challenges / contests.
 
 
 ## Libraries
