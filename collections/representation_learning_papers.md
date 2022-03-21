@@ -7,13 +7,13 @@
 
 #### Self-supervised learning
 - [Mean Shift for Self-Supervised Learning](#small_blue_diamond-mean-shift-for-self-supervised-learning)   
-:star:  
+:star: _(listed Mar 2022)_  
 _May 2021, ICCV_
 - [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)   
 :star: :star: :star: :star: :star:  
 _Jun 2020, NeurIPS_
 - [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)  
-:star: :star: :star: :star:  
+:star: :star: :star: :star: _(listed Mar 2022)_  
 _Mar 2020, ArXiv_
 - [A Simple Framework for Contrastive Learning of Visual Representations](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)  
 :star: :star: :star: :star: :star:  
@@ -24,19 +24,19 @@ _Nov 2019, CVPR_
 
 #### Semi-supervised learning
 - [Constrained Mean Shift Using Distant Yet Related Neighbors for Representation Learning](#small_blue_diamond-constrained-mean-shift-using-distant-yet-related-neighbors-for-representation-learning)  
-:star:  
+:star: _(listed Mar 2022)_  
 _Dec 2021, ArXiv_
 - [Meta Pseudo Labels](#small_blue_diamond-meta-pseudo-labels)  
-:star: :star: :star:  
+:star: :star: :star: _(listed Mar 2022)_  
 _Mar 2020, CVPR_
 - [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](#small_blue_diamond-fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence)  
-:star: :star: :star: :star:  
+:star: :star: :star: :star: _(listed Mar 2022)_  
 _Jan 2020, NeurIPS_
 - [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
-:star: :star: :star:  
+:star: :star: :star: _(listed Mar 2022)_  
 _May 2019, ICCV_  
 - [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
-:star: :star: :star: :star:  
+:star: :star: :star: :star: _(listed Mar 2022)_  
 _Oct 2016, ICLR_
 
 ## Self-supervised learning  
