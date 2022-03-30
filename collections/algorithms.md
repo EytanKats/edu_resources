@@ -3,6 +3,8 @@
 #### [Courses](#courses)
 - [Class Central](#small_blue_diamond-class-central-small_blue_diamond)
 - [Autonomous Vision Group Courses (University of Tubingen)](#small_blue_diamond-autonomous-vision-group-courses-university-of-tubingen-small_blue_diamond)
+- [MultiModal Machine Learning](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
+- [Deep Learning for Computer Vision: Fundamentals and Applications](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
 
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
@@ -35,6 +37,25 @@ Lectures offered by the Autonomous Vision Group at the University of Tubingen:
 - Deep learning.
 - Self-driving cars.
 
+### :small_blue_diamond: MultiModal Machine Learning :small_blue_diamond:
+Carnegie Mellon University, Louis-Philippe Morency
+
+[[Page](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/)] | [[YouTube](https://www.youtube.com/playlist?list=PL-Fhd_vrvisNup9YQs_TdLW7DQz-lda0G)]
+
+The course presents the fundamental mathematical concepts in machine learning and deep learning relevant to the five main challenges in multimodal machine learning:
+- Multimodal representation learning.
+- Translation & mapping.
+- Modality alignment.
+- Multimodal fusion.
+- Co-learning.
+
+### :small_blue_diamond: Deep Learning for Computer Vision: Fundamentals and Applications :small_blue_diamond:
+Weizmann Institute of Science, Prof. Tali Dekel
+
+[[Page](https://dl4cv.github.io/index.html)] | [[YouTube](https://www.youtube.com/playlist?list=PL_Z2_U9MIJdNgFM7-f2fZ9ZxjVRP_jhJv)]
+
+The course covers fundamentals of deep learning based methodologies in area of computer vision.  
+Topics include core deep learning algorithms and recent advances in deep learning for various visual tasks.
 
 ## YouTube Channels
 
