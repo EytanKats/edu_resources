@@ -9,8 +9,11 @@
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
 
+#### [Blogposts](#blogposts)
+- [GAN Series: from the Beginning to the End](#small_blue_diamond-gan-series-from-the-beginning-to-the-end-small_blue_diamond)
+
 #### [Contests](#contests)
-- [ML contests](#small_blue_diamond-ml-contests-small_blue_diamond)
+- [ML Contests](#small_blue_diamond-ml-contests-small_blue_diamond)
 
 #### [Libraries](#libraries)
 - [Open-source Algorithm Library](#small_blue_diamond-open-source-algorithm-library-small_blue_diamond)
@@ -70,9 +73,17 @@ Topics include core deep learning algorithms and recent advances in deep learnin
 YouTube channel of the machine learning groups at the University of Tubingen.
 
 
+## Blogposts
+
+### :small_blue_diamond: GAN Series: from the Beginning to the End :small_blue_diamond:
+
+[[Blogpost](https://jonathan-hui.medium.com/gan-gan-series-2d279f906e7b)]
+ 
+Articles series that review GAN architecture, loss functions, issues and improvements of Generative Adversarial Networks.
+
 ## Contests
 
-### :small_blue_diamond: ML contests :small_blue_diamond:
+### :small_blue_diamond: ML Contests :small_blue_diamond:
 
 [[Github](https://github.com/skrish13/ml-contests-conf)]
 
@@ -97,8 +108,7 @@ Training library for PyTorch-based deep learning models. It allows to train cust
 
 [[Page](https://monai.io/)] [[GitHub](https://github.com/Project-MONAI)]
 
-The MONAI is the open-source PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm.  
-Project MONAI also includes MONAI Label, an open source image labeling and learning tool that helps researchers and clinicians collaborate, create annotated datasets, and build AI models.
+The MONAI is the open-source PyTorch-based framework for deep learning in healthcare imaging. It provides domain-optimized foundational capabilities for developing healthcare imaging training workflows in a native PyTorch paradigm. Project MONAI also includes MONAI Label, an open source image labeling tool that helps researchers and clinicians collaborate and create annotated datasets.
 
 ### :small_blue_diamond: VISSL :small_blue_diamond:
 
