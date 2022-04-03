@@ -35,6 +35,9 @@ _Jan 2020, NeurIPS_
 - [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
 :star: :star: :star: _(listed Mar 2022)_  
 _May 2019, ICCV_  
+- [Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results](#small_blue_diamond-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results)  
+:star: :star: :star: :star: :star:  
+_Mar 2017, NeurIPS_  
 - [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
 :star: :star: :star: :star: _(listed Mar 2022)_  
 _Oct 2016, ICLR_
@@ -165,6 +168,20 @@ _May 2019, ICCV_
 - The unsupervised loss is the task specific loss applied on unlabeled examples:
   - Crossentropy loss for [rotation prediction](https://arxiv.org/abs/1803.07728) task.
   - [Batch hard triplet loss with soft margin](https://arxiv.org/abs/1703.07737) for [exemplar](https://arxiv.org/abs/1406.6909) task.
+
+### :small_blue_diamond: Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results
+[[ArXiv](https://arxiv.org/abs/1703.01780)]
+[[GitHub](https://github.com/CuriousAI/mean-teacher)]
+
+_Antti Tarvainen and Harri Valpola_  
+_Mar 2017, NeurIPS_  
+
+- In contrast to [Temporal Ensembling](https://arxiv.org/abs/1610.02242), the paper proposes averaging model weights instead of predictions.
+- Two models the student model and the teacher model are maintained during training.
+- Both the student and the teacher model evaluate the input applying noise within their computation.
+- The softmax output of the student model is compared with:
+  - The one-hot label using classification cost and with the teacher output using consistency cost
+
 
 ### :small_blue_diamond: Temporal Ensembling for Semi-Supervised Learning
 [[ArXiv](https://arxiv.org/abs/1610.02242)]
