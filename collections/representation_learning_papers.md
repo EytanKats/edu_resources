@@ -176,11 +176,13 @@ _May 2019, ICCV_
 _Antti Tarvainen and Harri Valpola_  
 _Mar 2017, NeurIPS_  
 
-- In contrast to [Temporal Ensembling](https://arxiv.org/abs/1610.02242), the paper proposes averaging model weights instead of predictions.
-- Two models the student model and the teacher model are maintained during training.
-- Both the student and the teacher model evaluate the input applying noise within their computation.
+- The proposed framework consists of two models: the student model and the teacher model.
+- Both models evaluate the same input applying noise within their computation.
 - The softmax output of the student model is compared with:
-  - The one-hot label using classification cost and with the teacher output using consistency cost
+  - One-hot ground-truth label using classification cost (only for labeled data).
+  - Teacher's output using consistency cost (for both labeled data and unlabeled data).
+- Weights of the student model are updated with gradient descent.
+- Weights of the teacher model are updated as an exponential moving average of the student's weights.
 
 
 ### :small_blue_diamond: Temporal Ensembling for Semi-Supervised Learning
