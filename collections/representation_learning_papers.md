@@ -35,12 +35,15 @@ _Jan 2020, NeurIPS_
 - [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
 :star: :star: :star: _(listed Mar 2022)_  
 _May 2019, ICCV_  
+- [Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning](#small_blue_diamond-virtual-adversarial-training-a-regularization-method-for-supervised-and-semi-supervised-learning)  
+:star: :star: :star: :star: :star:  
+_Apr 2017, IEEE transactions on pattern analysis and machine intelligence_  
 - [Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results](#small_blue_diamond-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results)  
 :star: :star: :star: :star: :star:  
 _Mar 2017, NeurIPS_  
 - [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
 :star: :star: :star: :star: _(listed Mar 2022)_  
-_Oct 2016, ICLR_
+_Oct 2016, ICLR_  
 
 ## Self-supervised learning  
 
@@ -168,6 +171,15 @@ _May 2019, ICCV_
 - The unsupervised loss is the task specific loss applied on unlabeled examples:
   - Crossentropy loss for [rotation prediction](https://arxiv.org/abs/1803.07728) task.
   - [Batch hard triplet loss with soft margin](https://arxiv.org/abs/1703.07737) for [exemplar](https://arxiv.org/abs/1406.6909) task.
+
+### :small_blue_diamond: Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning
+[[ArXiv](https://arxiv.org/abs/1704.03976)]
+[[GitHub](https://github.com/takerum/vat_tf)]
+
+_Takeru Miyato, Shin-Ichi Maeda, Masanori Koyama and Shin Ishii_  
+_Apr 2017, IEEE transactions on pattern analysis and machine intelligence_  
+
+- The proposed framework...
 
 ### :small_blue_diamond: Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results
 [[ArXiv](https://arxiv.org/abs/1703.01780)]
