@@ -179,7 +179,11 @@ _May 2019, ICCV_
 _Takeru Miyato, Shin-Ichi Maeda, Masanori Koyama and Shin Ishii_  
 _Apr 2017, IEEE transactions on pattern analysis and machine intelligence_  
 
-- The proposed framework...
+- The proposed regularization technique is a method that trains the output distribution to be isotropically smooth around each input data point by selectively smoothing the model in its most anisotropic direction.
+- The most anisotropic direction at an input data point (virtual adversarial direction) is a direction of the perturbation that can most greatly alter the output distribution in the sense of distributional divergence.
+- Distributional divergence defined between model output from original input and model output from input with random perturbation.
+- Virtual adversarial direction is calculated by taking the gradient of distributional divergence with respect to random perturbation.
+- In this way virtual adversarial direction can be calculated on unlabeled data point.
 
 ### :small_blue_diamond: Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results
 [[ArXiv](https://arxiv.org/abs/1703.01780)]
