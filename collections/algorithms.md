@@ -11,6 +11,7 @@
 
 #### [Blogposts](#blogposts)
 - [GAN Series: from the Beginning to the End](#small_blue_diamond-gan-series-from-the-beginning-to-the-end-small_blue_diamond)
+- [Top 50 Data Visualizations](#small_blue_diamond-top-50-data-visualizations-small_blue_diamond)
 
 #### [Contests](#contests)
 - [ML Contests](#small_blue_diamond-ml-contests-small_blue_diamond)
@@ -20,6 +21,7 @@
 - [Super Gradients](#small_blue_diamond-super-gradients-small_blue_diamond)
 - [MONAI](#small_blue_diamond-monai-small_blue_diamond)
 - [VISSL](#small_blue_diamond-vissl-small_blue_diamond)
+- [Knock Knock](#small_blue_diamond-knock-knock-small_blue_diamond)
 
 #### [Interviews](#interviews)
 - [Introduction to Machine Learning Interviews Book](#small_blue_diamond-introduction-to-machine-learning-interviews-book-small_blue_diamond)
@@ -85,6 +87,13 @@ YouTube channel of the machine learning groups at the University of Tubingen.
  
 Articles series that review GAN architecture, loss functions, issues and improvements of Generative Adversarial Networks.
 
+### :small_blue_diamond: Top 50 Data Visualizations :small_blue_diamond:
+
+[[Blogpost](https://www.machinelearningplus.com/plots/top-50-matplotlib-visualizations-the-master-plots-python/)]
+ 
+A compilation of the 50 most useful plots in data analysis. The plots built using python’s `matplotlib` and `seaborn` libraries.
+
+
 ## Contests
 
 ### :small_blue_diamond: ML Contests :small_blue_diamond:
@@ -120,6 +129,12 @@ The MONAI is the open-source PyTorch-based framework for deep learning in health
 
 Computer vision library for self-supervised learning with PyTorch.
 
+### :small_blue_diamond: Knock Knock :small_blue_diamond:
+
+[[GitHub](https://github.com/huggingface/knockknock)]
+
+A small library to get a notification when your training is complete or when it crashes during the process with two additional lines of code.
+
 
 ## Interviews
 
@@ -137,8 +152,7 @@ Shlomo Kashani
 
 [[GitHub]](https://github.com/BoltzmannEntropy/interviews.ai) 
 
-The book is home to hundreds of fully-solved problems, from a wide range of key topics in AI.
-It is designed to both rehearse interview and provide a well-organized overview of the field.
+The book is home to hundreds of fully-solved problems, from a wide range of key topics in AI. It is designed to both rehearse interview and provide a well-organized overview of the field.
 
 
 ## Other Collections of Resources
