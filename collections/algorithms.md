@@ -3,8 +3,8 @@
 #### [Courses](#courses)
 - [Class Central](#small_blue_diamond-class-central-small_blue_diamond)
 - [Autonomous Vision Group Courses (University of Tubingen)](#small_blue_diamond-autonomous-vision-group-courses-university-of-tubingen-small_blue_diamond)
-- [MultiModal Machine Learning](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
-- [Deep Learning for Computer Vision: Fundamentals and Applications](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
+- [MultiModal Machine Learning (Carnegie Mellon University)](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
+- [Deep Learning for Computer Vision: Fundamentals and Applications (Weizmann Institute of Science)](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
 
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
@@ -20,6 +20,10 @@
 - [Super Gradients](#small_blue_diamond-super-gradients-small_blue_diamond)
 - [MONAI](#small_blue_diamond-monai-small_blue_diamond)
 - [VISSL](#small_blue_diamond-vissl-small_blue_diamond)
+
+#### [Interviews](#interviews)
+- [Introduction to Machine Learning Interviews Book](#small_blue_diamond-introduction-to-machine-learning-interviews-book-small_blue_diamond)
+- [Deep Learning Interviews](#small_blue_diamond-deep-learning-interviews-small_blue_diamond)
 
 #### [Other Collections of Resources](#other-collections-of-resources)
 - [How to Learn Machine Learning](#small_blue_diamond-how-to-learn-machine-learning-small_blue_diamond)
@@ -115,6 +119,26 @@ The MONAI is the open-source PyTorch-based framework for deep learning in health
 [[Page](https://vissl.ai/)] [[GitHub](https://github.com/facebookresearch/vissl)]
 
 Computer vision library for self-supervised learning with PyTorch.
+
+
+## Interviews
+
+### :small_blue_diamond: Introduction to Machine Learning Interviews Book :small_blue_diamond:
+Chip Huyen
+
+[[Page](https://huyenchip.com/ml-interviews-book/)]  
+
+The book consists of two parts. The first part provides an overview of the machine learning interview process,
+what types of machine learning roles are available, what skills each role requires, what kinds of questions are often asked, and how to prepare for them.
+This part also explains the interviewers’ mindset and what kind of signals they look for. The second part consists of over 200 knowledge questions that cover important concepts and common misconceptions in machine learning.
+
+### :small_blue_diamond: Deep Learning Interviews :small_blue_diamond:
+Shlomo Kashani
+
+[[GitHub]](https://github.com/BoltzmannEntropy/interviews.ai) 
+
+The book is home to hundreds of fully-solved problems, from a wide range of key topics in AI.
+It is designed to both rehearse interview and provide a well-organized overview of the field.
 
 
 ## Other Collections of Resources
