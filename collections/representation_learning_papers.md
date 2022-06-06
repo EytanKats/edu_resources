@@ -44,6 +44,9 @@ _Mar 2017, NeurIPS_
 - [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
 :star: :star: :star: :star: _(listed Mar 2022)_  
 _Oct 2016, ICLR_  
+- [Pseudo-Label: The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks](#small_blue_diamond-pseudo-label-the-simple-and-efficient-semi-supervised-learning-method-for-deep-neural-networks)  
+:star: :star: :star: :star: :star:  
+_Jun 2013, ICML_  
 
 ## Self-supervised learning  
 
@@ -214,3 +217,11 @@ _Oct 2016, ICLR_
 - In temporal ensembling approach the network outputs from different epochs for the same data sample accumulated into weighted average with recent epochs having larger weight than distant epochs:
   - The first component of the temporal ensembling loss function is the standard cross-entropy loss, evaluated for labeled inputs only.
   - The second component, evaluated for all inputs, encourages consistency between the current network output and weighted average of the network outputs from previous epochs.
+
+### :small_blue_diamond: Pseudo-Label: The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks
+[[ResearchGate](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks)]
+
+_Dong-Hyun Lee_  
+_Jun 2013, ICML_
+
+- L
