@@ -224,4 +224,7 @@ _Oct 2016, ICLR_
 _Dong-Hyun Lee_  
 _Jun 2013, ICML_
 
-- L
+- The model is trained in a supervised fashion with labeled and unlabeled data simultaneously.
+- For unlabeled data, pseudo-labels are used as if they were true labels.
+- Pseudo-label defined as the class which has maximum predicted probability for the unlabeled sample.
+- Pseudo-labels recalculated every weights update.
