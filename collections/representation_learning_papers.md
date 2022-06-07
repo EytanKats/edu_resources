@@ -46,7 +46,7 @@ _Mar 2017, NeurIPS_
 _Oct 2016, ICLR_  
 - [Pseudo-Label: The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks](#small_blue_diamond-pseudo-label-the-simple-and-efficient-semi-supervised-learning-method-for-deep-neural-networks)  
 :star: :star: :star: :star: :star:  
-_Jun 2013, ICML_  
+_Jun 2013, Workshop on Challenges in Representation Learning, ICML_  
 
 ## Self-supervised learning  
 
@@ -222,7 +222,7 @@ _Oct 2016, ICLR_
 [[ResearchGate](https://www.researchgate.net/publication/280581078_Pseudo-Label_The_Simple_and_Efficient_Semi-Supervised_Learning_Method_for_Deep_Neural_Networks)]
 
 _Dong-Hyun Lee_  
-_Jun 2013, ICML_
+_Jun 2013, Workshop on Challenges in Representation Learning, ICML_
 
 - The model is trained in a supervised fashion with labeled and unlabeled data simultaneously.
 - For unlabeled data, pseudo-labels are used as if they were true labels.
