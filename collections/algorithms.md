@@ -2,9 +2,10 @@
 
 #### [Courses](#courses)
 - [Class Central](#small_blue_diamond-class-central-small_blue_diamond)
-- [Autonomous Vision Group Courses (University of Tubingen)](#small_blue_diamond-autonomous-vision-group-courses-university-of-tubingen-small_blue_diamond)
+- [Autonomous Vision Group Courses (University of Tubingen)](#small_blue_diamond-autonomous-vision-group-courses-small_blue_diamond)
 - [MultiModal Machine Learning (Carnegie Mellon University)](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
 - [Deep Learning for Computer Vision: Fundamentals and Applications (Weizmann Institute of Science)](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
+- [Full Stack Deep Learning](#small_blue_diamond-full-stack-deep-learning-small_blue_diamond)
 
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
@@ -40,7 +41,8 @@
 
 Search engine for free online courses.
 
-### :small_blue_diamond: Autonomous Vision Group Courses (University of Tubingen) :small_blue_diamond:
+### :small_blue_diamond: Autonomous Vision Group Courses :small_blue_diamond:
+University of Tubingen
 
 [[Page](https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/autonomous-vision/lectures/)]
 
@@ -68,6 +70,20 @@ Weizmann Institute of Science, Prof. Tali Dekel
 
 The course covers fundamentals of deep learning based methodologies in area of computer vision.  
 Topics include core deep learning algorithms and recent advances in deep learning for various visual tasks.
+
+### :small_blue_diamond: Full Stack Deep Learning :small_blue_diamond:
+
+[[Page](https://fullstackdeeplearning.com/)]
+
+The course covers topics essential to build and maintain ML-powered product from problem definition to deployment, monitoring and retraining:
+- Formulating the problem and estimating project cost.
+- Sourcing, cleaning, processing, labeling, synthesizing, and augmenting data.
+- Picking the right framework and compute infrastructure.
+- Troubleshooting training and ensuring reproducibility.
+- Deploying the model at scale.
+- Monitoring and continually improving the deployed model.
+- How ML teams work and how to manage ML projects.
+- Building on large language models and other foundation models.
 
 
 ## YouTube Channels
