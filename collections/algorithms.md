@@ -118,7 +118,7 @@ YouTube channel of the machine learning groups at the University of Tubingen.
 
 [[Medium](https://towardsdatascience.com/understanding-singular-value-decomposition-and-its-application-in-data-science-388a54be95d)]
 
-Explanation of the mathematical intuition behind SVD and its geometrical meaning.
+Explanation of the mathematical intuition behind singular value decomposition and its geometrical meaning.
 
 ### :small_blue_diamond: GAN Series: from the Beginning to the End :small_blue_diamond:
 
