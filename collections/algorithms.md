@@ -12,6 +12,7 @@
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
 
 #### [Blogposts](#blogposts)
+- [Understanding Singular Value Decomposition](#small_blue_diamond-understanding-singular-value-decomposition-small_blue_diamond)
 - [GAN Series: from the Beginning to the End](#small_blue_diamond-gan-series-from-the-beginning-to-the-end-small_blue_diamond)
 - [Top 50 Data Visualizations](#small_blue_diamond-top-50-data-visualizations-small_blue_diamond)
 
@@ -112,6 +113,12 @@ YouTube channel of the machine learning groups at the University of Tubingen.
 
 
 ## Blogposts
+
+### :small_blue_diamond: Understanding Singular Value Decomposition :small_blue_diamond:
+
+[[Medium](https://towardsdatascience.com/understanding-singular-value-decomposition-and-its-application-in-data-science-388a54be95d)]
+
+Explanation of the mathematical intuition behind SVD and its geometrical meaning.
 
 ### :small_blue_diamond: GAN Series: from the Beginning to the End :small_blue_diamond:
 
