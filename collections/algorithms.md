@@ -2,6 +2,7 @@
 
 #### [Courses](#courses)
 - [Class Central](#small_blue_diamond-class-central-small_blue_diamond)
+- [Computer Vision, From 3D Reconstruction to Recognition (Stanford University)](#small_blue_diamond-computer-vision-from-3d-reconstruction-to-recognition-small_blue_diamond)
 - [Autonomous Vision Group Courses (University of Tubingen)](#small_blue_diamond-autonomous-vision-group-courses-small_blue_diamond)
 - [MultiModal Machine Learning (Carnegie Mellon University)](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
 - [Deep Learning for Computer Vision: Fundamentals and Applications (Weizmann Institute of Science)](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
@@ -41,6 +42,20 @@
 
 Search engine for free online courses.
 
+### :small_blue_diamond: Computer Vision, From 3D Reconstruction to Recognition :small_blue_diamond:
+
+[[Page](https://web.stanford.edu/class/cs231a/)]
+
+An introduction to concepts and applications in computer vision primarily dealing with geometry and 3D understanding.  
+Topics include:
+- Cameras and projection models.
+- Filtering and edge detection.
+- Segmentation and clustering.
+- Shape reconstruction from stereo.
+- Learned visual representations.
+- Depth estimation and optical/scene flow.
+- 6D pose estimation and object tracking.
+
 ### :small_blue_diamond: Autonomous Vision Group Courses :small_blue_diamond:
 University of Tubingen
 
@@ -52,7 +67,7 @@ Lectures offered by the Autonomous Vision Group at the University of Tubingen:
 - Self-driving cars.
 
 ### :small_blue_diamond: MultiModal Machine Learning :small_blue_diamond:
-Carnegie Mellon University, Louis-Philippe Morency
+Carnegie Mellon University
 
 [[Page](https://cmu-multicomp-lab.github.io/mmml-course/fall2020/)] [[YouTube](https://www.youtube.com/playlist?list=PL-Fhd_vrvisNup9YQs_TdLW7DQz-lda0G)]
 
@@ -64,7 +79,7 @@ The course presents the fundamental mathematical concepts in machine learning an
 - Co-learning.
 
 ### :small_blue_diamond: Deep Learning for Computer Vision: Fundamentals and Applications :small_blue_diamond:
-Weizmann Institute of Science, Prof. Tali Dekel
+Weizmann Institute of Science
 
 [[Page](https://dl4cv.github.io/index.html)] [[YouTube](https://www.youtube.com/playlist?list=PL_Z2_U9MIJdNgFM7-f2fZ9ZxjVRP_jhJv)]
 
