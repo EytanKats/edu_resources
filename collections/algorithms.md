@@ -43,6 +43,7 @@
 Search engine for free online courses.
 
 ### :small_blue_diamond: Computer Vision, From 3D Reconstruction to Recognition :small_blue_diamond:
+Stanford University
 
 [[Page](https://web.stanford.edu/class/cs231a/)]
 
