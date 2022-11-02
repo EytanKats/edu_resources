@@ -1,70 +1,30 @@
-:star: - less than 20 citations at the moment of listing  
-:star: :star: - between 20 and 100 citations at the moment of listing  
-:star: :star: :star: - between 100 and 500 citations at the moment of listing  
-:star: :star: :star: :star: - between 500 and 1000 citations at the moment of listing  
-:star: :star: :star: :star: :star: - more than 1000 citations at the moment of listing  
-
-
 #### Self-supervised learning
-- [Mean Shift for Self-Supervised Learning](#small_blue_diamond-mean-shift-for-self-supervised-learning)   
-:star: _(listed Mar 2022)_  
-_May 2021, ICCV_
-- [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)   
-:star: :star: :star: :star: :star:  
+- [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)    
 _Jun 2020, NeurIPS_
-- [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)  
-:star: :star: :star: :star: _(listed Mar 2022)_  
+- [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)   
 _Mar 2020, ArXiv_
 - [A Simple Framework for Contrastive Learning of Visual Representations](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)  
-:star: :star: :star: :star: :star:  
 _Feb 2020, ICML_
-- [Momentum Contrast for Unsupervised Visual Representation Learning](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning)  
-:star: :star: :star: :star: :star:  
+- [Momentum Contrast for Unsupervised Visual Representation Learning](#small_blue_diamond-momentum-contrast-for-unsupervised-visual-representation-learning)    
 _Nov 2019, CVPR_ 
 
 #### Semi-supervised learning
-- [Constrained Mean Shift Using Distant Yet Related Neighbors for Representation Learning](#small_blue_diamond-constrained-mean-shift-using-distant-yet-related-neighbors-for-representation-learning)  
-:star: _(listed Mar 2022)_  
-_Dec 2021, ArXiv_
 - [Meta Pseudo Labels](#small_blue_diamond-meta-pseudo-labels)  
-:star: :star: :star: _(listed Mar 2022)_  
 _Mar 2020, CVPR_
 - [FixMatch: Simplifying Semi-Supervised Learning with Consistency and Confidence](#small_blue_diamond-fixmatch-simplifying-semi-supervised-learning-with-consistency-and-confidence)  
-:star: :star: :star: :star: _(listed Mar 2022)_  
 _Jan 2020, NeurIPS_
 - [S4L: Self-Supervised Semi-Supervised Learning](#small_blue_diamond-s4l-self-supervised-semi-supervised-learning)  
-:star: :star: :star: _(listed Mar 2022)_  
 _May 2019, ICCV_  
 - [Virtual Adversarial Training: A Regularization Method for Supervised and Semi-Supervised Learning](#small_blue_diamond-virtual-adversarial-training-a-regularization-method-for-supervised-and-semi-supervised-learning)  
-:star: :star: :star: :star: :star:  
 _Apr 2017, IEEE transactions on pattern analysis and machine intelligence_  
 - [Mean Teachers are Better Role Models: Weight-Averaged Consistency Targets Improve Semi-Supervised Deep Learning Results](#small_blue_diamond-mean-teachers-are-better-role-models-weight-averaged-consistency-targets-improve-semi-supervised-deep-learning-results)  
-:star: :star: :star: :star: :star:  
 _Mar 2017, NeurIPS_  
 - [Temporal Ensembling for Semi-Supervised Learning](#small_blue_diamond-temporal-ensembling-for-semi-supervised-learning)  
-:star: :star: :star: :star: _(listed Mar 2022)_  
 _Oct 2016, ICLR_  
-- [Pseudo-Label: The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks](#small_blue_diamond-pseudo-label-the-simple-and-efficient-semi-supervised-learning-method-for-deep-neural-networks)  
-:star: :star: :star: :star: :star:  
+- [Pseudo-Label: The Simple and Efficient Semi-Supervised Learning Method for Deep Neural Networks](#small_blue_diamond-pseudo-label-the-simple-and-efficient-semi-supervised-learning-method-for-deep-neural-networks)   
 _Jun 2013, Workshop on Challenges in Representation Learning, ICML_  
 
 ## Self-supervised learning  
-
-### :small_blue_diamond: Mean Shift for Self-Supervised Learning
-[[ArXiv](https://arxiv.org/abs/2105.07269)]
-[[GitHub](https://github.com/UMBCvision/MSF)]
-
-_Soroush Abbasi Koohpayegani, Ajinkya Tejankar and Hamed Pirsiavash_  
-_May 2021, ICCV_
-
-- Similar to [BYOL](https://arxiv.org/abs/2006.07733), MSF method maintains two encoders (target and online).
-- The online encoder is updated with gradient descent while the target encoder is the moving average of the online encoder.
-- Two different augmentations of an image are fed to these two encoders.
-- The target embedding is added to the memory bank.
-- The online embedding of the image is pushed to be close to the average of nearest neighbors of the target embedding from the memory bank (obviously target embedding itself will be the first nearest neighbor).
-- Nearest neighbors act as a proxy for strong augmentations of the query image, so the requirement for engineering strong augmentations can be relaxed.
-- MSF method using only one nearest neighbor is identical to [BYOL](https://arxiv.org/abs/2006.07733).
-
 
 ### :small_blue_diamond: Bootstrap Your Own latent: A New Approach to Self-Supervised Learning
 [[ArXiv](https://arxiv.org/abs/2006.07733)]
@@ -120,22 +80,6 @@ _Nov 2019, CVPR_
 - The keys are encoded by a slowly progressing encoder, driven by a momentum update with the query encoder.
 
 ## Semi-supervised learning
-
-### :small_blue_diamond: Constrained Mean Shift Using Distant Yet Related Neighbors for Representation Learning
-[[ArXiv](https://arxiv.org/abs/2112.04607)]
-[[GitHub](https://github.com/UCDvision/CMSF)]
-
-_Ajinkya Tejankar, Soroush Abbasi Koohpayegani, K L Navaneet, Kossar Pourahmadi, Akshayvarun Subramanya and Hamed Pirsiavash_  
-_Dec 2021, ArXiv_
-
-- Similar to [MSF](https://arxiv.org/abs/2105.07269) online embedding is pulled closer to the mean of the nearest neighbors of target embedding from the memory bank.
-- In contrast to [MSF](https://arxiv.org/abs/2105.07269) the nearest neighbors search space is constrained to the images from the same semantic category as the query image.
-- Different constraints are used in supervised, self-supervised and semi-supervised settings:
-  - In supervised setting the nearest neighbors are chosen from the samples that share the same label as the query image.
-  - In semi-supervised setting classifier is trained using the current embeddings of the labeled data and then utilized to pseudo-label the unlabeled data. Then the nearest neighbors are chosen from the samples that share the same pseudo-label as the query image.
-  - For self-supervised settings two constraints are proposed:  
-    - Clustering is performed at the end of each epoch using the cached embeddings of that epoch. Then in the next epoch the nearest neighbors are chosen from the samples that share the same cluster as the query image.
-    - A secondary memory bank is maintained and containing secondary target embeddings (embeddings of a different (3rd) augmentation of the images). Then, for the query image, the nearest neighbors of the secondary target embedding are found in secondary memory bank. Indices of these nearest neighbors are used to constrain the nearest neighbors search space for main target embedding in main memory bank. 
 
 ### :small_blue_diamond: Meta Pseudo Labels
 [[ArXiv](https://arxiv.org/abs/2003.10580)]
@@ -202,7 +146,6 @@ _Mar 2017, NeurIPS_
   - Teacher's output using consistency cost (for both labeled data and unlabeled data).
 - Weights of the student model are updated with gradient descent.
 - Weights of the teacher model are updated as an exponential moving average of the student's weights.
-
 
 ### :small_blue_diamond: Temporal Ensembling for Semi-Supervised Learning
 [[ArXiv](https://arxiv.org/abs/1610.02242)]
