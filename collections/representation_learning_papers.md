@@ -1,6 +1,8 @@
 #### Self-supervised learning
 - [Bootstrap Your Own latent: A New Approach to Self-Supervised Learning](#small_blue_diamond-bootstrap-your-own-latent-a-new-approach-to-self-supervised-learning)    
 _Jun 2020, NeurIPS_
+- [Unsupervised Learning of Visual Features by Contrasting Cluster Assignments](#small_blue_diamond-unsupervised-learning-of-visual-features-by-contrasting-cluster-assignments)    
+_Jun 2020, NeurIPS_
 - [Improved Baselines with Momentum Contrastive Learning](#small_blue_diamond-improved-baselines-with-momentum-contrastive-learning)   
 _Mar 2020, ArXiv_
 - [A Simple Framework for Contrastive Learning of Visual Representations](#small_blue_diamond-a-simple-framework-for-contrastive-learning-of-visual-representations)  
@@ -40,6 +42,18 @@ _Jun 2020, NeurIPS_
 - The parameters of target network are an exponential moving average of the online parameters.
 - Mean squared loss is applied between the normalized online predictions and normalized target projections
 that corresponds to two different augmentations of the same image.
+
+### :small_blue_diamond: Unsupervised Learning of Visual Features by Contrasting Cluster Assignments
+[[ArXiv](https://arxiv.org/abs/2006.09882)]
+[[GitHub](https://github.com/facebookresearch/swav)]
+
+_Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin_  
+_Jun 2020, NeurIPS_
+
+- SWAV uses a single neural network to encode two augmented views of the same image into vector representations.
+- Codes are computed for features by assigning them to prototype vectors.
+- The codes are computed using only the features within a batch while the features equally partitioned by the prototypes.
+- 
 
 ### :small_blue_diamond: Improved Baselines with Momentum Contrastive Learning
 [[ArXiv](https://arxiv.org/abs/2003.04297)]
