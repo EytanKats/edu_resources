@@ -50,10 +50,13 @@ that corresponds to two different augmentations of the same image.
 _Mathilde Caron, Ishan Misra, Julien Mairal, Priya Goyal, Piotr Bojanowski, Armand Joulin_  
 _Jun 2020, NeurIPS_
 
-- SWAV uses a single neural network to encode two augmented views of the same image into vector representations.
-- Codes are computed for features by assigning them to prototype vectors.
-- The codes are computed using only the features within a batch while the features equally partitioned by the prototypes.
-- 
+- SwAV uses a single neural network to encode two augmented views of the same image into vector representations (features).
+- Codes are computed for the features by assigning them to prototype vectors (prototypes).
+- Codes are computed using only the features within a batch while the features equally partitioned by the prototypes.
+- The loss function has two terms that setup the 'swapped' prediction problem: the code of one augmented view predicted from features of another augmented view and vice versa.
+- The loss function is jointly minimized with respect to the prototypes used to produce the codes and the parameters of the image encoder used to produce the features.
+- The paper proposes multi-crop strategy where number of low resolution crops (views that cover only small parts of the image) are sampled in addition to two standard resolution crops. During training, codes of standard views predicted from features of low resolution views.
+- Use of low resolution multiple crops from one side helps to capture information in terms of relations between parts of a scene or an object, while from another side does not increase significantly the memory and compute requirements.
 
 ### :small_blue_diamond: Improved Baselines with Momentum Contrastive Learning
 [[ArXiv](https://arxiv.org/abs/2003.04297)]
