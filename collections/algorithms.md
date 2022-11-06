@@ -10,6 +10,7 @@
 
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
+- [First Principles of Computer Vision](#small_blue_diamond-first-principles-of-computer-vision-small_blue_diamond)
 
 #### [Blogposts](#blogposts)
 - [Understanding Singular Value Decomposition](#small_blue_diamond-understanding-singular-value-decomposition-small_blue_diamond)
@@ -110,6 +111,12 @@ The course covers topics essential to build and maintain ML-powered product from
 [[YouTube Channel](https://www.youtube.com/c/T%C3%BCbingenML/featured)]
 
 YouTube channel of the machine learning groups at the University of Tubingen.
+
+### :small_blue_diamond: First Principles of Computer Vision :small_blue_diamond:
+
+[[YouTube Channel](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw)]
+
+Lecture series that focuses on physical and mathematical aspects of basic concepts in computer vision.
 
 
 ## Blogposts
