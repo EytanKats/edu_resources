@@ -1,4 +1,0 @@
-# Educational resources
-
-
-
