@@ -1,2 +1,2 @@
-# edu_resources
-Educational resources
+# Educational resources
+A list of educational resources with short description.
