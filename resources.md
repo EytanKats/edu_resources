@@ -146,7 +146,7 @@ A compilation of the 50 most useful plots in data analysis. The plots built usin
 
 [[Github](https://github.com/skrish13/ml-contests-conf)]
 
-List of ML and DL related challenges / contests.
+List of ML and DL related challenges / contests (not updated since 2021).
 
 
 ## Libraries
