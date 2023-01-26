@@ -129,7 +129,7 @@ Explanation of the mathematical intuition behind singular value decomposition an
 
 ### :small_blue_diamond: GAN Series: from the Beginning to the End :small_blue_diamond:
 
-[[Blogpost](https://jonathan-hui.medium.com/gan-gan-series-2d279f906e7b)]
+[[Medium](https://jonathan-hui.medium.com/gan-gan-series-2d279f906e7b)]
  
 Articles series that review GAN architecture, loss functions, issues and improvements of Generative Adversarial Networks.
 
