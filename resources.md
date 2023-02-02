@@ -7,6 +7,7 @@
 - [MultiModal Machine Learning (Carnegie Mellon University)](#small_blue_diamond-multimodal-machine-learning-small_blue_diamond)
 - [Deep Learning for Computer Vision: Fundamentals and Applications (Weizmann Institute of Science)](#small_blue_diamond-deep-learning-for-computer-vision-fundamentals-and-applications-small_blue_diamond)
 - [Full Stack Deep Learning](#small_blue_diamond-full-stack-deep-learning-small_blue_diamond)
+- [Made with ML](#small_blue_diamond-made-with-ml-small_blue_diamond)
 
 #### [YouTube Channels](#youtube-channels)
 - [Tubingen Machine Learning](#small_blue_diamond-tubingen-machine-learning-small_blue_diamond)
@@ -26,6 +27,9 @@
 - [MONAI](#small_blue_diamond-monai-small_blue_diamond)
 - [VISSL](#small_blue_diamond-vissl-small_blue_diamond)
 - [Knock Knock](#small_blue_diamond-knock-knock-small_blue_diamond)
+
+#### [MLOps](#mlops)
+- [MLOps Toys](#small_blue_diamond-mlops-toys-small_blue_diamond)
 
 #### [Interviews](#interviews)
 - [Introduction to Machine Learning Interviews Book](#small_blue_diamond-introduction-to-machine-learning-interviews-book-small_blue_diamond)
@@ -102,6 +106,12 @@ The course covers topics essential to build and maintain ML-powered product from
 - Monitoring and continually improving the deployed model.
 - How ML teams work and how to manage ML projects.
 - Building on large language models and other foundation models.
+
+### :small_blue_diamond: Made with ML :small_blue_diamond:
+
+[[Page](https://madewithml.com/)] [[Github](https://github.com/GokuMohandas/MadeWithML)]
+
+Course that focuses on how to responsibly develop, deploy and maintain production applications that are made with ML.
 
 
 ## YouTube Channels
@@ -180,6 +190,15 @@ Computer vision library for self-supervised learning with PyTorch.
 [[GitHub](https://github.com/huggingface/knockknock)]
 
 A small library to get a notification when your training is complete or when it crashes during the process with two additional lines of code.
+
+
+## MLOps
+
+### :small_blue_diamond: MLOps Toys :small_blue_diamond:
+
+[[Page](https://mlops.toys/)]
+
+Curated list of MLOps projects.
 
 
 ## Interviews
