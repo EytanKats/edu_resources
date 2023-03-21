@@ -14,7 +14,5 @@ _Aug 2019, MICCAI_
 Encoder-decoder is pretrained using combination of augmentations:
 - non-linear intensity transformations
 - local pixel shuffling
-- out-painting and in-painting
-
-![](medical_self_supervised_learning_images/models_genesis_framework.png)  
+- out-painting and in-painting  
 
