@@ -16,3 +16,4 @@ Encoder-decoder is pretrained using combination of augmentations:
 - local pixel shuffling
 - out-painting and in-painting  
 
+![](medical_self_supervised_learning_images/models_genesis_framework.png)
