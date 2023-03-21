@@ -10,6 +10,6 @@ _Aug 2019, MICCAI_
 [[ArXiv](https://arxiv.org/abs/1908.06912)]
 [[GitHub](https://github.com/MrGiovanni/ModelsGenesis)]
 
-![](medical_self_supervised_learning_images/models_genesis_framework.png)
+<img src="medical_self_supervised_learning_images/models_genesis_framework.png" style="display: inline-block; margin: 0 auto; max-width: 300px">
 
 - Description
