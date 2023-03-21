@@ -10,6 +10,11 @@ _Aug 2019, MICCAI_
 [[ArXiv](https://arxiv.org/abs/1908.06912)]
 [[GitHub](https://github.com/MrGiovanni/ModelsGenesis)]
 
-<img src="medical_self_supervised_learning_images/models_genesis_framework.png" style="display: inline-block; margin: 0 auto; max-width: 10px">
+#### Main idea
+Encoder-decoder is pretrained using combination of augmentations:
+- non-linear intensity transformations
+- local pixel shuffling
+- out-painting and in-painting
 
-- Description
+![](medical_self_supervised_learning_images/models_genesis_framework.png)  
+
