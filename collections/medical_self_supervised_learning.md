@@ -23,6 +23,8 @@ for 3D medical imaging data: masked volume inpainting, contrastive learning and 
   <img src="medical_self_supervised_learning_images/swin_architecture.png" width="700" height="350" />
 </p>
 
+##
+
 ### :small_blue_diamond: Transferable Visual Words: Exploiting the Semantics of Anatomical Patterns for Self-supervised Learning
 _Feb 2021, TMI_  
 
@@ -33,6 +35,8 @@ _Feb 2021, TMI_
 Auxiliary classification loss added to masked-based self-supervised pretraining. For classification purpose patches from the same location across different patients assigned with the same pseudo label.
 
 <img src="medical_self_supervised_learning_images/transvw_framework.png" height="400" />
+
+##
 
 ### :small_blue_diamond: Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis
 _Aug 2019, MICCAI_  
