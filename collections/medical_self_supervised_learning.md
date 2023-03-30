@@ -1,8 +1,25 @@
 #### Self-Supervised Learning for Medical Images
+- [Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis](#small_blue_diamond-self-supervised-pre-training-of-swin-transformers-for-3d-medical-image-analysis)    
+_Nov 2021, CVPR_
 - [Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis](#small_blue_diamond-models-genesis-generic-autodidactic-models-for-3d-medical-image-analysis)    
 _Aug 2019, MICCAI_
 
 ## Self-supervised learning for Medical Images
+
+### :small_blue_diamond: Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis
+_Nov 2021, CVPR_  
+
+[[ArXiv](https://arxiv.org/abs/2111.14791)]
+[[GitHub](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR)]
+
+#### Main idea
+3D transformer-based encoder encoder, Swin UNETR, pretrained with a combination of pre-text tasks tailored
+for 3D medical imaging data: masked volume inpainting, contrastive learning and rotation prediction.
+
+<p float="left">
+  <img src="medical_self_supervised_learning_images/swin_framework.png" width="300" height="350" />
+  <img src="medical_self_supervised_learning_images/swin_architecture.png" width="700" height="350" />
+</p>
 
 ### :small_blue_diamond: Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis
 _Aug 2019, MICCAI_  
@@ -16,7 +33,7 @@ Encoder-decoder is pretrained using combination of augmentations:
 - local pixel shuffling
 - out-painting and in-painting  
 
-![](medical_self_supervised_learning_images/models_genesis_framework.png)
+<img src="medical_self_supervised_learning_images/models_genesis_framework.png" height="400" />
 
 #### Follow-up works
 - Journal paper: [Models Genesis](https://arxiv.org/abs/2004.07882)
