@@ -6,7 +6,7 @@ _Feb 2021, TMI_
 - [Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis](#small_blue_diamond-models-genesis-generic-autodidactic-models-for-3d-medical-image-analysis)    
 _Aug 2019, MICCAI_
 
-## Self-supervised learning for Medical Images
+## Self-Supervised Learning for Medical Images
 
 ### :small_blue_diamond: Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis
 _Nov 2021, CVPR_  
