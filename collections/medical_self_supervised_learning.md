@@ -15,8 +15,7 @@ _Nov 2021, CVPR_
 [[GitHub](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR)]
 
 #### Main idea
-3D transformer-based encoder, Swin UNETR, pretrained with a combination of pre-text tasks tailored
-for 3D medical imaging data: masked volume inpainting, contrastive learning and rotation prediction.
+3D transformer-based encoder, Swin UNETR, pretrained with a combination of pre-text tasks tailored for 3D medical imaging data: masked volume inpainting, contrastive learning and rotation prediction.
 
 <p float="left">
   <img src="medical_self_supervised_learning_images/swin_framework.png" width="300" height="350" />
