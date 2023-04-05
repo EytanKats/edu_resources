@@ -7,7 +7,7 @@ _Jul 2022, MIDL_
 [[GitHub](https://github.com/yyNoBug/VAE_segmentation)]
 
 #### Main idea
-At first step VAE network is trained on the source domain with the objective to reconstruct the ground truth masks. At the second step fixed VAE network is used as a regularizer for masks (shapes) produced during training of target domain segmentation model.
+At first step the VAE network is trained on the source domain with the objective to reconstruct the ground truth masks. At second step the fixed VAE network is used as a regularizer for masks (shapes) produced during training of the target domain segmentation model.
 
 <img src="medical_unsupervised_domain_adaptation_images/shape_modeling_framework.png" height="400" />
 
@@ -24,6 +24,18 @@ Only early layers of model pretrained on labeled source domain data adapted to t
 head for early features, and using the final predictions of the network as pseudo-labels for refinement.
 
 <img src="medical_unsupervised_domain_adaptation_images/early_features_model.png" height="400" />
+
+##
+
+### :small_blue_diamond: Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
+_Jul 2019, MICCAI_  
+
+[[ArXiv](https://arxiv.org/abs/1907.13590)]
+
+#### Main idea
+At first step the framework is trained to decompose a latent image reperesentation into a domain-invariant content space, which preserves the anatomical information, and a domain-specific style space, which represents the modality information. At second step the segmentation model is trained with content-only images.
+
+<img src="medical_unsupervised_domain_adaptation_images/dadr_framework.png" height="300" />
 
 ##
 
