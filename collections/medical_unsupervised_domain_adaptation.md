@@ -27,6 +27,18 @@ head for early features, and using the final predictions of the network as pseud
 
 ##
 
+### :small_blue_diamond: Structure-Driven Unsupervised Domain Adaptation for Cross-Modality Cardiac Segmentation
+_Dec 2021, TMI_  
+
+[[IEEEXplore](https://ieeexplore.ieee.org/document/9463875)]
+
+#### Main idea
+At first step the landmark detection module is trained to extract the anatomical cardiac structure represented by a set of 3D landmarks. At second step the segmentation module is trained with domain-agnostic inputs: an extracted set of points and a set of edges from the canny operator.
+
+<img src="medical_unsupervised_domain_adaptation_images/structure_driven_uda_framework.png" height="450" />
+
+##
+
 ### :small_blue_diamond: Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
 _Jul 2019, MICCAI_  
 
