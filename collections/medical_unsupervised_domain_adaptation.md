@@ -10,6 +10,10 @@ _Dec 2021, MIDL_
 Only early layers of model pretrained on labeled source domain data adapted to target domain data. This is achieved by adding a segmentation
 head for early features, and using the final predictions of the network as pseudo-labels for refinement.
 
+<img src="medical_unsupervised_domain_adaptation_images/early_features_model.png" height="400" />
+
+##
+
 ### :small_blue_diamond: Unsupervised Domain Adaptation for Medical Imaging Segmentation with Self-Ensembling
 _Nov 2018, NeuroImage_  
 
@@ -18,3 +22,5 @@ _Nov 2018, NeuroImage_
 
 #### Main idea
 Mean teacher framework is applied to multi-site domain adaptation for medical image segmentation.
+
+<img src="medical_unsupervised_domain_adaptation_images/self_ensembling_framework.png" height="400" />
