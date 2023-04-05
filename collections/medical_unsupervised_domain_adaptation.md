@@ -61,3 +61,15 @@ _Nov 2018, NeuroImage_
 Mean teacher framework is applied to multi-site domain adaptation for medical image segmentation.
 
 <img src="medical_unsupervised_domain_adaptation_images/self_ensembling_framework.png" height="400" />
+
+##
+
+### :small_blue_diamond: Unsupervised domain adaptation in brain lesion segmentation with adversarial networks
+_Dec 2016, IPMI_  
+
+[[ArXiv](https://arxiv.org/abs/1612.08894)]
+
+#### Main idea
+Domain adaptation is achieved by applying adversarial loss to features from different layers of segmentation network. 
+
+<img src="medical_unsupervised_domain_adaptation_images/adversarial_networks_framework.png" height="250" />
