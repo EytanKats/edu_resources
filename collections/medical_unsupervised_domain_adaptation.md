@@ -1,4 +1,22 @@
-## Unsupervised Domain Adaptation
+# Unsupervised Domain Adaptation Hackathon Starter
+
+:rocket: Short list of resources to spark the imagination and to ensure the fast start  
+
+## Collections
+
+- Awesome Domain Adaptation, [[GitHub](https://github.com/zhaoxin94/awesome-domain-adaptation)]  
+
+- Leaderbord For Unsupervised Domain Adaptation methods, [[Page](https://uda-survey.github.io/survey/leaderboard)]  
+<sup>Thanks to Ron for pointing out to this page  :blush:</sup>
+
+## Surveys
+
+- Domain Adaptation for Medical Image Analysis: A Survey, _Feb 2021_, [[ArXiv](https://arxiv.org/abs/2102.09508)]
+- Unsupervised Domain Adaptation for Semantic Image Segmentation: a Comprehensive Survey, _Dec 2021_, [[ArXiv](https://arxiv.org/abs/2112.03241)]
+
+## Papers
+
+:books: List of papers that span most popular ideas dor medical unsupervised domain adaptation
 
 ### :small_blue_diamond: Unsupervised Domain Adaptation through Shape Modeling for Medical Image Segmentation
 _Jul 2022, MIDL_  
