@@ -39,6 +39,19 @@ At first step the landmark detection module is trained to extract the anatomical
 
 ##
 
+### :small_blue_diamond: Unsupervised Bidirectional Cross-Modality Adaptation via Deeply Synergistic Image and Feature Alignment for Medical Image Segmentation
+_Feb 2020, TMI_  
+
+[[ArXiv](https://arxiv.org/abs/2002.02255)]
+[[GitHub](https://github.com/cchen-cc/SIFA)]
+
+#### Main idea
+In order to address domain shift from complementary perspectives both image and feature alignments are learned simultaneously in the proposed framework.
+
+<img src="medical_unsupervised_domain_adaptation_images/sifa_framework.png" height="400" />
+
+##
+
 ### :small_blue_diamond: Unsupervised Domain Adaptation via Disentangled Representations: Application to Cross-Modality Liver Segmentation
 _Jul 2019, MICCAI_  
 
