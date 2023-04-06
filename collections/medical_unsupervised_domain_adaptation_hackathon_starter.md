@@ -16,7 +16,7 @@
 
 ## Papers
 
-:books: List of papers that span most popular ideas dor medical unsupervised domain adaptation
+:books: List of papers that span most popular ideas in medical unsupervised domain adaptation for image segmentation
 
 ### :small_blue_diamond: Unsupervised Domain Adaptation through Shape Modeling for Medical Image Segmentation
 _Jul 2022, MIDL_  
