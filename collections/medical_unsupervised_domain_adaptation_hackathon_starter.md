@@ -6,7 +6,7 @@
 
 - Awesome Domain Adaptation, [[GitHub](https://github.com/zhaoxin94/awesome-domain-adaptation)]  
 
-- Leaderbord For Unsupervised Domain Adaptation methods, [[Page](https://uda-survey.github.io/survey/leaderboard)]  
+- Leaderbord for Unsupervised Domain Adaptation Methods, [[Page](https://uda-survey.github.io/survey/leaderboard)]  
 <sup>Thanks to Ron for pointing out to this page  :blush:</sup>
 
 ## Surveys
