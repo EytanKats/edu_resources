@@ -51,6 +51,18 @@ At first step the framework is trained to decompose a latent image reperesentati
 
 ##
 
+### :small_blue_diamond: Data Efficient Unsupervised Domain Adaptation for Cross-Modality Image Segmentation
+_Jul 2019, MICCAI_  
+
+[[ArXiv](https://arxiv.org/abs/1907.02766)]
+
+#### Main idea
+Prior distributions for the source features and target features are forced to be close to a fixed prior distribution. To achieve this KL-divergence loss is applied between prior distributions of latent features and fixed prior distribution.
+
+<img src="medical_unsupervised_domain_adaptation_images/data_efficient_uda_framework.png" height="350" />
+
+##
+
 ### :small_blue_diamond: Unsupervised Domain Adaptation for Medical Imaging Segmentation with Self-Ensembling
 _Nov 2018, NeuroImage_  
 
