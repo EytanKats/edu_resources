@@ -11,7 +11,8 @@
 
 ## Surveys
 
-- Domain Adaptation for Medical Image Analysis: A Survey, _Feb 2021_, [[ArXiv](https://arxiv.org/abs/2102.09508)]
+- Domain Adaptation for Medical Image Analysis: A Survey, _Feb 2021_, [[ArXiv](https://arxiv.org/abs/2102.09508)]  
+
 - Unsupervised Domain Adaptation for Semantic Image Segmentation: a Comprehensive Survey, _Dec 2021_, [[ArXiv](https://arxiv.org/abs/2112.03241)]
 
 ## Papers
