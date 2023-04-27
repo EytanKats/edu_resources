@@ -1,38 +1,17 @@
-#### Self-Supervised Learning for Medical Images
-- [Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis](#small_blue_diamond-self-supervised-pre-training-of-swin-transformers-for-3d-medical-image-analysis)    
-_Nov 2021, CVPR_
-- [Transferable Visual Words: Exploiting the Semantics of Anatomical Patterns for Self-supervised Learning](#small_blue_diamond-transferable-visual-words-exploiting-the-semantics-of-anatomical-patterns-for-self-supervised-learning)    
-_Feb 2021, TMI_
-- [Models Genesis: Generic Autodidactic Models for 3D Medical Image Analysis](#small_blue_diamond-models-genesis-generic-autodidactic-models-for-3d-medical-image-analysis)    
-_Aug 2019, MICCAI_
+#### Segmentation for Medical Images
+- [CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection](#small_blue_diamond-clip-driven-universal-model-for-organ-segmentation-and-tumor-detection)    
+_Jan 2023, ArXiv_
 
-## Self-Supervised Learning for Medical Images
+## Segmentation for Medical Images
 
-### :small_blue_diamond: Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis
-_Nov 2021, CVPR_  
+### :small_blue_diamond: CLIP-Driven Universal Model for Organ Segmentation and Tumor Detection
+_Jan 2023, ArXiv_  
 
-[[ArXiv](https://arxiv.org/abs/2111.14791)]
-[[GitHub](https://github.com/Project-MONAI/research-contributions/tree/main/SwinUNETR)]
+[[ArXiv](https://arxiv.org/abs/2301.00785)]
+[[GitHub](https://github.com/ljwztc/CLIP-Driven-Universal-Model)]
 
 #### Main idea
-3D transformer-based encoder, Swin UNETR, pretrained with a combination of pre-text tasks tailored for 3D medical imaging data: masked volume inpainting, contrastive learning and rotation prediction.
+Universal Model incorporates text embedding to learn parameters of segmentation head and adopts masked back-propagation mechanism with binary segmentation mask.
 
-<p float="left">
-  <img src="medical_self_supervised_learning_images/swin_framework.png" width="300" height="350" />
-  <img src="medical_self_supervised_learning_images/swin_architecture.png" width="700" height="350" />
-</p>
+<img src="medical_segmentation_images/universal_model_framework.png" height="400" />
 
-##
-
-### :small_blue_diamond: Transferable Visual Words: Exploiting the Semantics of Anatomical Patterns for Self-supervised Learning
-_Feb 2021, TMI_  
-
-[[ArXiv](https://arxiv.org/abs/2102.10680)]
-[[GitHub](https://github.com/fhaghighi/TransVW)]
-
-#### Main idea
-Auxiliary classification loss added to masked-based self-supervised pretraining. For classification purpose patches from the same location across different patients assigned with the same pseudo label.
-
-<img src="medical_self_supervised_learning_images/transvw_framework.png" height="400" />
-
-##
