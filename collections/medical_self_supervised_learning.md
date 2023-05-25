@@ -1,4 +1,6 @@
 #### Self-Supervised Learning for Medical Images
+- [Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training](#small-blue-diamond-geometric-visual-similarity-learning-in-3D-medical-image-self-supervised-pre-training)    
+_Mar 2023, CVPR_
 - [Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis](#small_blue_diamond-self-supervised-pre-training-of-swin-transformers-for-3d-medical-image-analysis)    
 _Nov 2021, CVPR_
 - [Transferable Visual Words: Exploiting the Semantics of Anatomical Patterns for Self-supervised Learning](#small_blue_diamond-transferable-visual-words-exploiting-the-semantics-of-anatomical-patterns-for-self-supervised-learning)    
@@ -7,6 +9,19 @@ _Feb 2021, TMI_
 _Aug 2019, MICCAI_
 
 ## Self-Supervised Learning for Medical Images
+
+### :small_blue_diamond: Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training
+_Mar 2023, CVPR_  
+
+[[ArXiv](https://arxiv.org/abs/2303.00874)]
+[[GitHub](https://github.com/YutingHe-list/GVSL)]
+
+#### Main idea
+Affine matrix and deformable map are predicted to align two different images, while normalized cross-corellation loss is used to evaluate alignment between them.
+
+<img src="medical_self_supervised_learning_images/gvsl_framework.png" height="300" />
+
+##
 
 ### :small_blue_diamond: Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis
 _Nov 2021, CVPR_  
@@ -44,10 +59,7 @@ _Aug 2019, MICCAI_
 [[GitHub](https://github.com/MrGiovanni/ModelsGenesis)]
 
 #### Main idea
-Encoder-decoder is pretrained using combination of augmentations:
-- non-linear intensity transformations
-- local pixel shuffling
-- out-painting and in-painting  
+Encoder-decoder is pretrained using combination of augmentations: non-linear intensity transformations, local pixel shuffling, out-painting and in-painting  
 
 <img src="medical_self_supervised_learning_images/models_genesis_framework.png" height="400" />
 
