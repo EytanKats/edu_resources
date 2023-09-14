@@ -1,5 +1,5 @@
 #### Semi-Supervised Learning for Medical Images
-- [SimCVD: Simple Contrastive Voxel-Wise Representation Distillation for Semi-Supervised Medical Image Segmentation](#small-blue-diamond-simcvd-simple-contrastive-voxel-wise-representation-distillation-for-semi-supervised-medical-image-segmentation)
+- [SimCVD: Simple Contrastive Voxel-Wise Representation Distillation for Semi-Supervised Medical Image Segmentation](#small-blue-diamond-simcvd-simple-contrastive-voxel-wise-representation-distillation-for-semi-supervised-medical-image-segmentation)  
 _Aug 2021, TMI_ 
 
 ## Semi-Supervised Learning for Medical Images
