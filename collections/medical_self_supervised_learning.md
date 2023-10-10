@@ -1,4 +1,6 @@
 #### Self-Supervised Learning for Medical Images
+- [vox2vec: A Framework for Self-supervised Contrastive Learning of Voxel-level Representations in Medical Images](#small-blue-diamond-vox2vec-a-framework-for-self-supervised-contrastive-learning-of-voxel-level-representations-in-medical-images)    
+_Jul 2023, MICCAI_
 - [Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training](#small-blue-diamond-geometric-visual-similarity-learning-in-3D-medical-image-self-supervised-pre-training)    
 _Mar 2023, CVPR_
 - [Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis](#small_blue_diamond-self-supervised-pre-training-of-swin-transformers-for-3d-medical-image-analysis)    
@@ -9,6 +11,19 @@ _Feb 2021, TMI_
 _Aug 2019, MICCAI_
 
 ## Self-Supervised Learning for Medical Images
+
+### :small_blue_diamond: vox2vec: A Framework for Self-supervised Contrastive Learning of Voxel-level Representations in Medical Images
+_Jul 2023, MICCAI_  
+
+[[ArXiv](https://arxiv.org/abs/2307.14725)]
+[[GitHub](https://github.com/mishgon/vox2vec)]
+
+#### Main idea
+Voxel-level representations are obtained via the concatenation of corresponding feature vectors from different levels of the FPN. The representations are projected to the space where contrastive loss is computed.
+
+<img src="medical_self_supervised_learning_images/vox2vec_framework.png" height="400" />
+
+##
 
 ### :small_blue_diamond: Geometric Visual Similarity Learning in 3D Medical Image Self-supervised Pre-training
 _Mar 2023, CVPR_  
