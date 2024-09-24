@@ -13,4 +13,4 @@ _Sep 2018, TMI_
 #### Main idea
 The paper proposes a method to train CNN for pairwise medical image registration.
 
-<img src="medical_registration_images/voxelmorph_framework.png" height="400" />
+<img src="medical_registration_images/voxelmorph_framework.png" height="600" />
